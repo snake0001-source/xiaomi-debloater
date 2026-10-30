@@ -1,0 +1,33 @@
+name: Build Debloater EXE
+
+on:
+  push:
+    branches: [ "main" ] # 如果您的預設分支是 master，請改成 master
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: 檢查程式碼
+      uses: actions/checkout@v4
+
+    - name: 設定 Python 環境
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: 安裝打包工具 (PyInstaller)
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+
+    - name: 打包成單一執行檔
+      run: |
+        pyinstaller --onefile --noconsole --add-data "bloatware.json;." debloater.py
+
+    - name: 上傳打包好的 EXE 到 Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: xiaomi-debloater-exe
+        path: dist/*.exe
