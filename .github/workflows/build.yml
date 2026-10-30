@@ -1,38 +1,51 @@
-name: Build Wails EXE
+name: Build Wails App
 
 on:
   push:
     branches: [ "main", "master" ]
-    tags:
-      - 'v*'
+  pull_request:
+    branches: [ "main", "master" ]
   workflow_dispatch:
 
 jobs:
-  build:
+  build-windows:
     runs-on: windows-latest
 
     steps:
-    - name: 1. 取得程式碼
-      uses: actions/checkout@v4
+      # 1. 取得專案原始碼
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: 2. 設定 Go 環境
-      uses: actions/setup-go@v5
-      with:
-        go-version: '1.22'
+      # 2. 設定 Go 環境
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22' # 可依您的專案需求調整
 
-    - name: 3. 設定 Node.js 環境
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      # 3. 設定 Node.js 環境
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-    - name: 4. 安裝 Wails CLI
-      run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+      # 4. 安裝 pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+          run_install: false
 
-    - name: 5. 建置 Windows 執行檔 (.exe)
-      run: wails build -platform windows/amd64
+      # 5. 安裝 Wails CLI
+      - name: Install Wails CLI
+        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
 
-    - name: 6. 上傳打包好的 EXE (Artifacts)
-      uses: actions/upload-artifact@v4
-      with:
-        name: xiaomi-debloater-windows-exe
-        path: build/bin/*.exe
+      # 6. 建置 Windows 執行檔
+      - name: Build Wails application
+        run: wails build -platform windows/amd64
+
+      # 7. 上傳建置好的執行檔作為 Artifact（方便下載測試）
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xiaomi-debloater-windows
+          path: build/bin/xiaomi-debloater.exe
