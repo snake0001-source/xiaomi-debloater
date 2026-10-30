@@ -1,10 +1,10 @@
-{
+﻿{
   "version": "2026.09.27",
   "updated": "2026-09-27",
   "packages": [
     {
       "package": "android.autoinstalls.config.Xiaomi.cactus",
-      "description": "First-boot auto-installer config (Redmi 6A); pushes OEM apps after setup/reset. Unused later.",
+      "description": "首次開機自動安裝設定檔（Redmi 6A）；在設定或重設後推送 OEM 應用程式。之後不再使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -13,7 +13,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.cepheus",
-      "description": "First-boot auto-installer config (Mi 9); pushes OEM apps after setup/reset. Unused later.",
+      "description": "首次開機自動安裝設定檔（Mi 9）；在設定或重設後推送 OEM 應用程式。之後不再使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -22,7 +22,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.cereus",
-      "description": "First-boot auto-installer config (Redmi 6); pushes OEM apps after setup/reset. Unused later.",
+      "description": "首次開機自動安裝設定檔（Redmi 6）；在設定或重設後推送 OEM 應用程式。之後不再使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -31,7 +31,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.daisy",
-      "description": "First-boot auto-installer config (Mi A2 Lite); installs OEM apps on setup. Unused later.",
+      "description": "首次開機自動安裝設定檔（Mi A2 Lite）；在設定時安裝 OEM 應用程式。之後不再使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -40,7 +40,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.dipper",
-      "description": "First-boot auto-installer config (Mi 8); installs OEM apps on setup. Unused later.",
+      "description": "首次開機自動安裝設定檔（Mi 8）；在設定時安裝 OEM 應用程式。之後不再使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -49,7 +49,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.land",
-      "description": "First-boot auto-installer config (Redmi 3S); installs OEM apps on setup. Unused later.",
+      "description": "首次開機自動安裝設定檔（Redmi 3S）；在設定時安裝 OEM 應用程式。之後不再使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -58,7 +58,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.model",
-      "description": "Play auto-install config: downloads partner apps after first setup/reset. Not needed after.",
+      "description": "Play 自動安裝設定：在首次設定或重設後下載合作夥伴應用程式。之後不需要。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -72,7 +72,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.qssi",
-      "description": "Play auto-install config (generic Qualcomm builds): pushes partner apps on setup.",
+      "description": "Play 自動安裝設定（通用高通版本）：在設定時推送合作夥伴應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -85,7 +85,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.whyred",
-      "description": "First-boot auto-installer config (Redmi Note 5); only used during initial setup.",
+      "description": "首次開機自動安裝設定檔（Redmi Note 5）；僅在初始設定期間使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -94,7 +94,7 @@
     },
     {
       "package": "android.autoinstalls.config.Xiaomi.willow",
-      "description": "First-boot auto-installer config (Redmi Note 8T); only used during initial setup.",
+      "description": "首次開機自動安裝設定檔（Redmi Note 8T）；僅在初始設定期間使用。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -103,7 +103,7 @@
     },
     {
       "package": "android.miui.home.launcher.res",
-      "description": "Default icon/widget layout for the MIUI launcher's first run. May affect launcher reset.",
+      "description": "MIUI 桌面首次執行的預設圖示/小工具版面配置。可能會影響桌面重設。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -112,7 +112,7 @@
     },
     {
       "package": "android.miui.overlay",
-      "description": "Core MIUI framework overlay (UI resources/behaviour). Removing can break the system.",
+      "description": "核心 MIUI 框架覆蓋（UI 資源/行為）。移除可能會損壞系統。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -122,7 +122,7 @@
     },
     {
       "package": "android.miui.overlay.telephony",
-      "description": "MIUI telephony overlay used by the phone/SMS stack. Keep it or calls/SIM may break.",
+      "description": "由電話/簡訊堆疊使用的 MIUI 電話覆蓋。請保留，否則通話或 SIM 卡可能會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -132,7 +132,7 @@
     },
     {
       "package": "android.miui.poco.launcher.res",
-      "description": "Default icon/widget layout for the POCO launcher's first run. May affect launcher reset.",
+      "description": "POCO 桌面首次執行的預設圖示/小工具版面配置。可能會影響桌面重設。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -141,7 +141,7 @@
     },
     {
       "package": "android.qvaoverlay.common",
-      "description": "Resource-only overlay with no code. Removed in 15 Ultra list; low impact but little gain.",
+      "description": "僅包含資源且無程式碼的覆蓋。已在 15 Ultra 清單中移除；影響低但效益也小。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -155,7 +155,7 @@
     },
     {
       "package": "android.romstats",
-      "description": "Xiaomi ROM statistics/telemetry reporter despite the Android-looking name.",
+      "description": "小米 ROM 統計資料/遙測回報工具（儘管名字看起來像 Android 原生）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -164,7 +164,7 @@
     },
     {
       "package": "cn.wps.moffice_eng",
-      "description": "WPS Office preload (Chinese/global builds). Install your own office app if needed.",
+      "description": "WPS Office 預載應用程式（中文/國際版）。如果需要，請自行安裝辦公室軟體。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -174,7 +174,7 @@
     },
     {
       "package": "cn.wps.moffice_eng.xiaomi.lite",
-      "description": "WPS-based document viewer preload. Files app loses built-in doc preview.",
+      "description": "基於 WPS 的文件檢視器預載版。檔案管理應用程式將失去內建的文件預覽功能。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -184,7 +184,7 @@
     },
     {
       "package": "cn.wps.xiaomi.abroad.lite",
-      "description": "Mi Doc Viewer (WPS lite): opens Office/PDF files. Use another viewer instead.",
+      "description": "小米文件檢視器（WPS 輕量版）：用於開啟 Office/PDF 檔案。建議改用其他檢視器。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -198,7 +198,7 @@
     },
     {
       "package": "co.aospa.dolby.xiaomi",
-      "description": "Dolby Atmos app on AOSPA custom ROMs for Xiaomi; removing just drops Dolby audio.",
+      "description": "適用於小米 AOSPA 自定義 ROM 的 Dolby Atmos 應用程式；移除只會失去杜比音效。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -207,7 +207,7 @@
     },
     {
       "package": "com.alibaba.aliexpresshd",
-      "description": "AliExpress shopping app preload.",
+      "description": "全球速賣通（AliExpress）購物應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -221,7 +221,7 @@
     },
     {
       "package": "com.altice.android.myapps",
-      "description": "Altice/SFR carrier app-store stub. Useless outside that carrier.",
+      "description": "Altice/SFR 電信商應用程式商店捷徑。在該電信商網路範圍外毫無用處。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -235,7 +235,7 @@
     },
     {
       "package": "com.amazon.appmanager",
-      "description": "Amazon preload helper that installs/updates Amazon apps and reports device info.",
+      "description": "亞馬遜（Amazon）預載輔助程式，用於安裝/更新亞馬遜應用程式並回報裝置資訊。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -249,7 +249,7 @@
     },
     {
       "package": "com.amazon.fv",
-      "description": "Amazon app suite launcher preload.",
+      "description": "亞馬遜應用程式套件啟動器預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -259,7 +259,7 @@
     },
     {
       "package": "com.amazon.kindle",
-      "description": "Amazon Kindle e-book app preload.",
+      "description": "亞馬遜 Kindle 電子書應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -269,7 +269,7 @@
     },
     {
       "package": "com.amazon.mShop.android",
-      "description": "Amazon Shopping app preload (older package name).",
+      "description": "亞馬遜購物應用程式預載（舊版套件名稱）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -279,7 +279,7 @@
     },
     {
       "package": "com.amazon.mShop.android.shopping",
-      "description": "Amazon Shopping app preload.",
+      "description": "亞馬遜購物應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -293,7 +293,7 @@
     },
     {
       "package": "com.amazon.mp3",
-      "description": "Amazon Music app preload.",
+      "description": "亞馬遜音樂應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -307,7 +307,7 @@
     },
     {
       "package": "com.amazon.venezia",
-      "description": "Amazon Appstore preload. Only matters if you buy apps from Amazon.",
+      "description": "亞馬遜應用商店預載。僅在你從亞馬遜購買應用程式時才有意義。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -317,7 +317,7 @@
     },
     {
       "package": "com.android.DeviceAsWebcam",
-      "description": "Lets the phone act as a USB webcam for a PC. Remove only if you never use that.",
+      "description": "讓手機作為 PC 的 USB 網路攝影機使用。如果從未使用此功能再移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -331,7 +331,7 @@
     },
     {
       "package": "com.android.apps.tag",
-      "description": "Reads NFC tags (e.g. smart posters). Payments unaffected, but tag scanning stops.",
+      "description": "讀取 NFC 標籤（例如智慧海報）。行動支付不受影響，但會停止標籤掃描。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -344,7 +344,7 @@
     },
     {
       "package": "com.android.backup",
-      "description": "Old Xiaomi local backup/restore app (replaced by com.miui.backup on newer phones).",
+      "description": "舊版小米本機備份/還原應用程式（在新手機上已被 com.miui.backup 取代）。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -353,7 +353,7 @@
     },
     {
       "package": "com.android.backupconfirm",
-      "description": "Confirms backup/restore prompts; removing breaks adb backup and some restores (UAD-ng Expert).",
+      "description": "確認備份/還原提示；移除會破壞 adb 備份和某些還原功能（UAD-ng 專家級）。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -367,7 +367,7 @@
     },
     {
       "package": "com.android.bips",
-      "description": "Built-in print service. Removed in several lists, but UAD-ng warns Settings may crash.",
+      "description": "內建列印服務。雖然在幾個清單中被移除，但 UAD-ng 警告設定選單可能會當機。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -385,7 +385,7 @@
     },
     {
       "package": "com.android.bluetooth",
-      "description": "Bluetooth service. All Bluetooth stops.",
+      "description": "藍牙服務。所有藍牙功能將完全停止。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -395,7 +395,7 @@
     },
     {
       "package": "com.android.bluetoothmidiservice",
-      "description": "MIDI over Bluetooth. Only needed for Bluetooth musical instruments.",
+      "description": "透過藍牙傳輸 MIDI。僅適用於藍牙樂器。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -411,7 +411,7 @@
     },
     {
       "package": "com.android.bookmarkprovider",
-      "description": "Legacy bookmarks provider stub kept for app compatibility. Rarely used.",
+      "description": "為了應用程式相容性而保留的舊版書籤提供者捷徑。很少使用。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -429,7 +429,7 @@
     },
     {
       "package": "com.android.browser",
-      "description": "Mi Browser on some models (ad-heavy). Install another browser first.",
+      "description": "部分機型上的小米瀏覽器（廣告較多）。建議先安裝其他瀏覽器。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -444,7 +444,7 @@
     },
     {
       "package": "com.android.calculator2",
-      "description": "Calculator app (Xiaomi reuses this AOSP name on some builds).",
+      "description": "計算機應用程式（小米在某些版本上重複使用此 AOSP 名稱）。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -453,7 +453,7 @@
     },
     {
       "package": "com.android.calendar",
-      "description": "Xiaomi/AOSP calendar app. Remove only if you use another calendar.",
+      "description": "小米/AOSP 行事曆應用程式。僅在你使用其他行事曆時才移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -463,7 +463,7 @@
     },
     {
       "package": "com.android.calllogbackup",
-      "description": "Backs up call logs. XDA users report removal can break the call-recording button.",
+      "description": "備份通話記錄。XDA 用戶回報移除可能會破壞通話錄音按鈕。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -479,7 +479,7 @@
     },
     {
       "package": "com.android.camera",
-      "description": "Stock camera on many Xiaomi phones. Removing leaves no camera app. Keep it.",
+      "description": "許多小米手機的內建相機。移除後將沒有相機應用程式。請保留。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -488,7 +488,7 @@
     },
     {
       "package": "com.android.camera2",
-      "description": "Xiaomi Camera on some models (AOSP-style name). Removing leaves no stock camera.",
+      "description": "部分機型的小米相機（AOSP 風格名稱）。移除後將沒有內建相機。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -497,7 +497,7 @@
     },
     {
       "package": "com.android.cameraextensions",
-      "description": "Lets third-party camera apps use night/portrait/HDR extensions.",
+      "description": "讓第三方相機應用程式能夠使用夜間/人像/HDR 延伸功能。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -506,7 +506,7 @@
     },
     {
       "package": "com.android.carrierconfig.overlay.miui",
-      "description": "MIUI overlay for carrier config. Only harmless if carrier config itself is gone.",
+      "description": "用於電信商設定的 MIUI 覆蓋。只有在電信商設定本身被移除時才無害。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -515,7 +515,7 @@
     },
     {
       "package": "com.android.cellbroadcastreceiver",
-      "description": "Emergency/government alerts (cell broadcast). Some lists remove it; you lose alerts.",
+      "description": "緊急/政府警報（細胞廣播）。有些清單會移除它，但你會失去警報通知。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -529,7 +529,7 @@
     },
     {
       "package": "com.android.cellbroadcastreceiver.overlay.common",
-      "description": "Overlay for emergency alerts settings. Low impact; removed in 15 Ultra list.",
+      "description": "緊急警報設定的覆蓋。影響低；已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -543,7 +543,7 @@
     },
     {
       "package": "com.android.chrome",
-      "description": "Google Chrome. Safe if you use another browser; some apps rely on it for WebView-like flows.",
+      "description": "Google Chrome。如果你使用其他瀏覽器則是安全的；但有些應用程式依賴它進行類似 WebView 的流程。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -557,7 +557,7 @@
     },
     {
       "package": "com.android.companiondevicemanager",
-      "description": "Pairs companion devices (watches, bands). Removing can break wearable pairing.",
+      "description": "配對周邊裝置（智慧手錶、手環）。移除可能會破壞穿戴式裝置的配對功能。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -570,7 +570,7 @@
     },
     {
       "package": "com.android.contacts",
-      "description": "Contacts app (Xiaomi reuses this name). Removal can break contacts/dialer on MIUI.",
+      "description": "聯絡人應用程式（小米重複使用此名稱）。在 MIUI 上移除可能會破壞聯絡人或撥號程式。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -579,7 +579,7 @@
     },
     {
       "package": "com.android.cts.ctsshim",
-      "description": "Compatibility Test Suite shim; idle. Removed in many lists with no reported issue.",
+      "description": "相容性測試套件掛鉤（Shim）；處於閒置狀態。許多清單已將其移除且無回報問題。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -595,7 +595,7 @@
     },
     {
       "package": "com.android.cts.priv.ctsshim",
-      "description": "CTS privileged shim; UAD-ng warns it may interfere with OTA updates.",
+      "description": "CTS 特權掛鉤；UAD-ng 警告它可能會干擾 OTA 系統更新。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -611,7 +611,7 @@
     },
     {
       "package": "com.android.deskclock",
-      "description": "Clock/alarms app. Removing loses alarms unless you install another clock app.",
+      "description": "時鐘/鬧鐘應用程式。移除後將失去鬧鐘功能，除非你安裝其他時鐘應用程式。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -622,7 +622,7 @@
     },
     {
       "package": "com.android.dreams.basic",
-      "description": "Basic screensaver (Daydream). Nothing else depends on it.",
+      "description": "基本螢幕保護程式（Daydream）。沒有其他東西相依於它。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -640,7 +640,7 @@
     },
     {
       "package": "com.android.dreams.phototable",
-      "description": "Photo screensaver (Daydream). Nothing else depends on it.",
+      "description": "相片螢幕保護程式（Daydream）。沒有其他東西相依於它。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -658,7 +658,7 @@
     },
     {
       "package": "com.android.dynsystem",
-      "description": "Dynamic System Updates (boot GSI images). UAD-ng rates Expert; little benefit.",
+      "description": "動態系統更新（開機 GSI 映像檔）。UAD-ng 評為專家級；好處很少。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -671,7 +671,7 @@
     },
     {
       "package": "com.android.egg",
-      "description": "Android version easter egg. Kept by ovsky as restore-only, but harmless to remove.",
+      "description": "Android 版本彩蛋。ovsky 保留它僅用於還原，但移除它是無害的。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -689,7 +689,7 @@
     },
     {
       "package": "com.android.email",
-      "description": "Xiaomi Email app (AOSP-style name). Remove if you use Gmail or another client.",
+      "description": "小米電子郵件應用程式（AOSP 風格名稱）。如果你使用 Gmail 或其他客戶端則可移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -700,7 +700,7 @@
     },
     {
       "package": "com.android.emergency",
-      "description": "Emergency info on lock screen/power menu. Safe unless you rely on medical info.",
+      "description": "鎖定螢幕/電源選單上的緊急資訊。除非你依賴醫療資訊，否則移除是安全的。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -716,7 +716,7 @@
     },
     {
       "package": "com.android.exchange",
-      "description": "Exchange sync for the stock email app. Remove with the email app.",
+      "description": "內建電子郵件應用程式的 Exchange 同步。請與電子郵件應用程式一起移除。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -726,7 +726,7 @@
     },
     {
       "package": "com.android.fileexplorer",
-      "description": "Xiaomi File Manager (older name). Install another file manager first.",
+      "description": "小米檔案管理員（舊名稱）。請先安裝其他檔案管理員。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -736,7 +736,7 @@
     },
     {
       "package": "com.android.globalFileexplorer",
-      "description": "Xiaomi File Manager (global). Shows ads; install another file manager first.",
+      "description": "小米檔案管理員（國際版）。會顯示廣告；請先安裝其他檔案管理員。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -745,7 +745,7 @@
     },
     {
       "package": "com.android.hotwordenrollment.okgoogle",
-      "description": "\"OK Google\" hotword enrollment. Voice wake-word stops working.",
+      "description": "「OK Google」語音喚醒註冊。語音喚醒功能將停止運作。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -762,7 +762,7 @@
     },
     {
       "package": "com.android.hotwordenrollment.xgoogle",
-      "description": "\"OK Google\" hotword enrollment (variant). Voice wake-word stops working.",
+      "description": "「OK Google」語音喚醒註冊（變體）。語音喚醒功能將停止運作。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -772,13 +772,14 @@
       "sources": [
         "kerneltruth",
         "local15u",
+        "mpierson",
         "uad",
         "xda"
       ]
     },
     {
       "package": "com.android.htmlviewer",
-      "description": "Simple HTML viewer; UAD-ng reports bootloops on some MIUI 12.5.4+ phones.",
+      "description": "簡單的 HTML 檢視器；UAD-ng 回報在某些 MIUI 12.5.4+ 手機上會導致無限開機循環。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -791,7 +792,7 @@
     },
     {
       "package": "com.android.incallui",
-      "description": "Xiaomi phone/in-call UI on some models. Do not remove or calls break.",
+      "description": "部分機型的小米電話/通話中介面。請勿移除，否則通話會失效。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -800,7 +801,7 @@
     },
     {
       "package": "com.android.inputsettings.overlay.miui",
-      "description": "MIUI keyboard-settings overlay. UAD-ng: on HyperOS 3 the camera ring feature depends on it.",
+      "description": "MIUI 鍵盤設定覆蓋。UAD-ng：在 HyperOS 3 上，相機環功能相依於它。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -814,7 +815,7 @@
     },
     {
       "package": "com.android.internal.systemui.navbar.gestural",
-      "description": "Gesture navigation overlay. Removing breaks swipe navigation.",
+      "description": "手勢導覽覆蓋。移除會破壞滑動手勢導覽。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -827,7 +828,7 @@
     },
     {
       "package": "com.android.internal.systemui.navbar.gestural_extra_wide_back",
-      "description": "Back-gesture sensitivity option. Part of gesture nav; UAD-ng Expert.",
+      "description": "返回手勢靈敏度選項。手勢導覽的一部分；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -840,7 +841,7 @@
     },
     {
       "package": "com.android.internal.systemui.navbar.gestural_narrow_back",
-      "description": "Back-gesture sensitivity option. Part of gesture nav; UAD-ng Expert.",
+      "description": "返回手勢靈敏度選項。手勢導覽的一部分；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -853,7 +854,7 @@
     },
     {
       "package": "com.android.internal.systemui.navbar.gestural_wide_back",
-      "description": "Back-gesture sensitivity option. Part of gesture nav; UAD-ng Expert.",
+      "description": "返回手勢靈敏度選項。手勢導覽的一部分；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -866,7 +867,7 @@
     },
     {
       "package": "com.android.internal.systemui.onehanded.gestural",
-      "description": "One-handed mode overlay. Remove only if you never use one-handed mode.",
+      "description": "單手模式覆蓋。僅在你從不使用單手模式時移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -879,7 +880,7 @@
     },
     {
       "package": "com.android.keychain",
-      "description": "System credential store for certificates (Wi-Fi, VPN, apps). Listed by KernelTruth; UAD-ng Unsafe.",
+      "description": "用於憑證（Wi-Fi、VPN、應用程式）的系統憑證儲存庫。KernelTruth 列出；UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -893,7 +894,7 @@
     },
     {
       "package": "com.android.keyguard",
-      "description": "Lock-screen magazine component on some OEM builds. Lock screen extras may vanish.",
+      "description": "某些 OEM 版本上的鎖定螢幕雜誌元件。鎖定螢幕的額外功能可能會消失。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -902,7 +903,7 @@
     },
     {
       "package": "com.android.localtransport",
-      "description": "Local backup transport. Listed by KernelTruth; UAD-ng rates Unsafe.",
+      "description": "本機備份傳輸。KernelTruth 列出；UAD-ng 評為不安全。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -916,7 +917,7 @@
     },
     {
       "package": "com.android.location.fused",
-      "description": "Fused location provider. GPS/location for apps may break.",
+      "description": "混合定位提供者。應用程式的 GPS/定位功能可能會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -926,7 +927,7 @@
     },
     {
       "package": "com.android.managedprovisioning",
-      "description": "Work profile/device owner setup. Breaks work profiles and some setup flows.",
+      "description": "工作資料設定檔/裝置擁有者設定。會破壞工作資料設定檔與某些設定流程。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -942,7 +943,7 @@
     },
     {
       "package": "com.android.managedprovisioning.overlay",
-      "description": "Overlay for work-profile setup. Low impact; removed in 15 Ultra list.",
+      "description": "工作資料設定檔設定的覆蓋。影響低；已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -956,7 +957,7 @@
     },
     {
       "package": "com.android.microdroid.empty_payload",
-      "description": "Empty placeholder for Android virtualization. Removed in 15 Ultra list with no reported issue.",
+      "description": "Android 虛擬化的空白佔位符。已在 15 Ultra 清單中移除且無回報問題。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -970,7 +971,7 @@
     },
     {
       "package": "com.android.midrive",
-      "description": "Mi Drive cloud storage (old name). Remove if you don't use Xiaomi Cloud Drive.",
+      "description": "小米雲端空間（舊名稱）。如果不使用小米雲端硬碟則可移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -979,7 +980,7 @@
     },
     {
       "package": "com.android.mms",
-      "description": "Messaging app on MIUI (reused AOSP name). Install another SMS app first.",
+      "description": "MIUI 上的訊息應用程式（重複使用的 AOSP 名稱）。請先安裝其他簡訊應用程式。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -988,7 +989,7 @@
     },
     {
       "package": "com.android.mms.service",
-      "description": "Sends/receives MMS. Listed by KernelTruth; MMS stops working if removed.",
+      "description": "傳送/接收 MMS（多媒體簡訊）。KernelTruth 列出；移除後 MMS 將停止運作。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1001,7 +1002,7 @@
     },
     {
       "package": "com.android.musicfx",
-      "description": "System equalizer used by music apps. Removing drops EQ in some players.",
+      "description": "音樂應用程式使用的系統等化器（EQ）。移除會使某些播放器失去等化器功能。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1014,7 +1015,7 @@
     },
     {
       "package": "com.android.networkstack.overlay.miui",
-      "description": "MIUI overlay for the network stack. UAD-ng Unsafe.",
+      "description": "網路堆疊的 MIUI 覆蓋。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1024,7 +1025,7 @@
     },
     {
       "package": "com.android.networkstack.tethering.inprocess",
-      "description": "Tethering component; UAD-ng reports lock-screen loops on some Xiaomi phones.",
+      "description": "網路共享（Tethering）元件；UAD-ng 回報在某些小米手機上會導致鎖定螢幕循環。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1034,7 +1035,7 @@
     },
     {
       "package": "com.android.nfc",
-      "description": "NFC service. Listed by KernelTruth but NFC, payments and tap-to-pair stop working.",
+      "description": "NFC 服務。KernelTruth 列出，但 NFC、行動支付與碰觸配對會停止運作。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1047,7 +1048,7 @@
     },
     {
       "package": "com.android.ons",
-      "description": "Opportunistic network service for multi-SIM/carrier switching. UAD-ng Expert.",
+      "description": "用於多 SIM 卡/電信商切換的機會性網路服務。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1060,7 +1061,7 @@
     },
     {
       "package": "com.android.overlay.circletosearch",
-      "description": "Circle to Search overlay; UAD-ng reports a soft brick on HyperOS when removed.",
+      "description": "「畫圈搜尋」（Circle to Search）覆蓋；UAD-ng 回報在移除時會導致 HyperOS 輕微磚化。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1073,7 +1074,7 @@
     },
     {
       "package": "com.android.overlay.gmscontactprovider",
-      "description": "Overlay tying contacts sync to Google services. Removed in 15 Ultra list.",
+      "description": "將聯絡人同步繫結至 Google 服務的覆蓋。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1087,7 +1088,7 @@
     },
     {
       "package": "com.android.overlay.gmssettingprovider",
-      "description": "Overlay with Google backup settings. Removed in 15 Ultra list; backup may be affected.",
+      "description": "包含 Google 備份設定的覆蓋。已在 15 Ultra 清單中移除；備份功能可能會受影響。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1101,7 +1102,7 @@
     },
     {
       "package": "com.android.overlay.gmssettings",
-      "description": "Overlay for Google Safety settings. Removed in 15 Ultra list.",
+      "description": "Google 安全設定的覆蓋。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1115,7 +1116,7 @@
     },
     {
       "package": "com.android.packageinstaller",
-      "description": "Installs/updates/removes apps. Never remove; you cannot install APKs.",
+      "description": "安裝/更新/移除應用程式。絕不能移除；否則你將無法安裝 APK。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1126,7 +1127,7 @@
     },
     {
       "package": "com.android.phone",
-      "description": "Phone/telephony service. Calls and SIM break. Never remove.",
+      "description": "電話/電信服務。通話與 SIM 卡會失效。絕不能移除。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1136,7 +1137,7 @@
     },
     {
       "package": "com.android.phone.cust.overlay.miui",
-      "description": "MIUI customization overlay for the phone service. Keep for calls.",
+      "description": "電話服務的 MIUI 自訂覆蓋。請保留以維持通話功能。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1145,7 +1146,7 @@
     },
     {
       "package": "com.android.phone.overlay.miui",
-      "description": "MIUI overlay for the phone/telephony app. Removing can break calls.",
+      "description": "電話/電信應用程式的 MIUI 覆蓋。移除可能會破壞通話功能。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1155,7 +1156,7 @@
     },
     {
       "package": "com.android.phone.recorder",
-      "description": "Call recorder (Xiaomi reuses this name on some builds). Recording stops.",
+      "description": "通話錄音器（小米在某些版本上重複使用此名稱）。錄音功能將停止。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -1164,7 +1165,7 @@
     },
     {
       "package": "com.android.printspooler",
-      "description": "Print spooler. Printing stops. UAD-ng rates Expert; 15 Ultra/ovsky lists remove it.",
+      "description": "列印工作緩衝處理器。列印功能將停止。UAD-ng 評為專家級；15 Ultra/ovsky 清單已將其移除。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1182,7 +1183,7 @@
     },
     {
       "package": "com.android.providers.blockednumber",
-      "description": "Stores blocked numbers; UAD-ng notes it may break recents on some phones.",
+      "description": "儲存封鎖號碼；UAD-ng 指出它可能會破壞某些手機上的最近通話記錄。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1195,7 +1196,7 @@
     },
     {
       "package": "com.android.providers.contacts",
-      "description": "Contacts database. Removing breaks contacts, dialer and messaging.",
+      "description": "聯絡人資料庫。移除會破壞聯絡人、撥號程式與訊息。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1204,7 +1205,7 @@
     },
     {
       "package": "com.android.providers.downloads",
-      "description": "Download manager. App and browser downloads fail.",
+      "description": "下載管理員。應用程式與瀏覽器的下載將會失敗。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1214,7 +1215,7 @@
     },
     {
       "package": "com.android.providers.downloads.ui",
-      "description": "Downloads app UI (MIUI version shows ads). Downloads still work without it.",
+      "description": "下載應用程式 UI（MIUI 版本會顯示廣告）。沒有它下載功能仍然可以運作。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -1229,7 +1230,7 @@
     },
     {
       "package": "com.android.providers.media",
-      "description": "Media storage provider. Gallery, camera and file access break without it.",
+      "description": "媒體儲存提供者。沒有它，相簿、相機和檔案存取將會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1240,7 +1241,7 @@
     },
     {
       "package": "com.android.providers.media.module",
-      "description": "Media provider/photo picker module. Apps using the photo picker break.",
+      "description": "媒體提供者/相片選擇器模組。使用相片選擇器的應用程式將會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1250,7 +1251,7 @@
     },
     {
       "package": "com.android.providers.partnerbookmarks",
-      "description": "Partner bookmarks injected into browsers. Nothing depends on it.",
+      "description": "注入瀏覽器中的合作夥伴書籤。沒有東西相依於它。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -1268,7 +1269,7 @@
     },
     {
       "package": "com.android.providers.settings",
-      "description": "Settings storage. Removing can bootloop the device.",
+      "description": "設定儲存庫。移除可能會導致裝置無限開機。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1278,7 +1279,7 @@
     },
     {
       "package": "com.android.providers.telephony",
-      "description": "Telephony database (SMS, APNs). Messaging and data break.",
+      "description": "電話資料庫（簡訊、APN）。簡訊和行動數據會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1288,7 +1289,7 @@
     },
     {
       "package": "com.android.providers.telephony.overlay.miui",
-      "description": "MIUI overlay for the telephony database. UAD-ng Unsafe.",
+      "description": "電話資料庫的 MIUI 覆蓋。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1298,7 +1299,7 @@
     },
     {
       "package": "com.android.providers.userdictionary",
-      "description": "User dictionary for keyboards. Listed by KernelTruth; UAD-ng Expert.",
+      "description": "鍵盤的使用者字典。KernelTruth 列出；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1312,7 +1313,7 @@
     },
     {
       "package": "com.android.provision",
-      "description": "Setup/provisioning component. Listed by KernelTruth but UAD-ng rates Unsafe.",
+      "description": "設定/配置元件。KernelTruth 列出，但 UAD-ng 評為不安全。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1326,7 +1327,7 @@
     },
     {
       "package": "com.android.provision.overlay.miui",
-      "description": "MIUI overlay for provisioning. UAD-ng Unsafe.",
+      "description": "配置功能的 MIUI 覆蓋。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1336,7 +1337,7 @@
     },
     {
       "package": "com.android.proxyhandler",
-      "description": "Proxy auto-config handler. UAD-ng rates Expert; only matters if you use a proxy.",
+      "description": "代理伺服器自動配置處理常式。UAD-ng 專家級；僅在你使用代理伺服器時才有影響。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1349,7 +1350,7 @@
     },
     {
       "package": "com.android.quicksearchbox",
-      "description": "Search widget (Xiaomi modifies it on some builds). Safe if you don't use it.",
+      "description": "搜尋小工具（小米在某些版本上進行了修改）。如果不使用它是安全的。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -1362,7 +1363,7 @@
     },
     {
       "package": "com.android.role.notes.enabled",
-      "description": "Overlay enabling the default Notes role. Removed in 15 Ultra list.",
+      "description": "啟用預設筆記角色的覆蓋。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1376,7 +1377,7 @@
     },
     {
       "package": "com.android.se",
-      "description": "Secure Element service for NFC payments/eSIM-like apps. KernelTruth lists it; UAD-ng Expert.",
+      "description": "用於 NFC 支付/類似 eSIM 應用程式的安全元素服務。KernelTruth 列出；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1389,7 +1390,7 @@
     },
     {
       "package": "com.android.server.telecom",
-      "description": "Telecom call manager. Calls break.",
+      "description": "電信通話管理員。通話功能會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1399,7 +1400,7 @@
     },
     {
       "package": "com.android.server.telecom.overlay.miui",
-      "description": "MIUI overlay for call management UI. Do not remove.",
+      "description": "通話管理 UI 的 MIUI 覆蓋。請勿移除。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1409,7 +1410,7 @@
     },
     {
       "package": "com.android.settings",
-      "description": "Settings app. Never remove.",
+      "description": "設定應用程式。絕不能移除。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1420,7 +1421,7 @@
     },
     {
       "package": "com.android.settings.overlay.miui",
-      "description": "Resource-only MIUI Settings overlay. XDA users linked it to a broken call-record button.",
+      "description": "僅含資源的 MIUI 設定覆蓋。XDA 用戶將其與損壞的通話錄音按鈕連結在一起。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1429,7 +1430,7 @@
     },
     {
       "package": "com.android.sharedstoragebackup",
-      "description": "Backs up shared storage during system backups. Local/Google backup may be incomplete.",
+      "description": "在系統備份期間備份共用儲存空間。本機/Google 備份可能會不完整。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1446,7 +1447,7 @@
     },
     {
       "package": "com.android.shell",
-      "description": "ADB shell. Removing it stops this debloater from working.",
+      "description": "ADB Shell。移除它會導致此 debloater 工具無法運作。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1456,7 +1457,7 @@
     },
     {
       "package": "com.android.simappdialog",
-      "description": "Prompts to install carrier apps when a SIM is inserted. UAD-ng Expert; 15 Ultra list removes it.",
+      "description": "插入 SIM 卡時提示安裝電信商應用程式。UAD-ng 專家級；15 Ultra 清單會移除它。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1470,7 +1471,7 @@
     },
     {
       "package": "com.android.smspush",
-      "description": "Handles WAP-push/service SMS (carrier config messages). Listed by KernelTruth.",
+      "description": "處理 WAP 推播/服務簡訊（電信商設定訊息）。由 KernelTruth 列出。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1483,7 +1484,7 @@
     },
     {
       "package": "com.android.soundpicker",
-      "description": "Ringtone/sound picker. Without it you can't choose ringtones (UAD-ng Expert).",
+      "description": "鈴聲/聲音選擇器。沒有它你將無法選擇鈴聲（UAD-ng 專家級）。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1496,7 +1497,7 @@
     },
     {
       "package": "com.android.soundrecorder",
-      "description": "Xiaomi Sound Recorder (AOSP-style name). Remove only if you use another recorder.",
+      "description": "小米錄音機（AOSP 風格名稱）。僅在你使用其他錄音應用程式時移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -1510,7 +1511,7 @@
     },
     {
       "package": "com.android.stk",
-      "description": "SIM Toolkit: carrier SIM menus/services. Some carriers need it; keep if unsure.",
+      "description": "SIM 工具包：電信商 SIM 卡選單/服務。有些電信商需要它；不確定請保留。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1526,7 +1527,7 @@
     },
     {
       "package": "com.android.stk.overlay.miui",
-      "description": "MIUI overlay for SIM Toolkit. Remove together with SIM Toolkit only.",
+      "description": "SIM 工具包的 MIUI 覆蓋。請僅與 SIM 工具包一起移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1540,7 +1541,7 @@
     },
     {
       "package": "com.android.systemui",
-      "description": "System UI (status bar, notifications, navigation). Never remove.",
+      "description": "系統 UI（狀態列、通知、導覽列）。絕不能移除。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1550,7 +1551,7 @@
     },
     {
       "package": "com.android.systemui.accessibility.accessibilitymenu",
-      "description": "Accessibility Menu shortcut. Only needed if you use the on-screen accessibility menu.",
+      "description": "無障礙選單捷徑。僅在你使用螢幕無障礙選單時需要。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -1564,7 +1565,7 @@
     },
     {
       "package": "com.android.systemui.gesture.line.overlay",
-      "description": "Gesture navigation bar line overlay. Listed by KernelTruth; UAD-ng Unsafe.",
+      "description": "手勢導覽列線條覆蓋。KernelTruth 列出；UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1578,7 +1579,7 @@
     },
     {
       "package": "com.android.systemui.miui.optimization.overlay",
-      "description": "Unused MIUI SystemUI overlay. Low impact.",
+      "description": "未使用的 MIUI SystemUI 覆蓋。影響低。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1587,7 +1588,7 @@
     },
     {
       "package": "com.android.systemui.overlay.miui",
-      "description": "Resource-only MIUI SystemUI overlay. XDA users linked removal to a broken call-record button.",
+      "description": "僅含資源的 MIUI SystemUI 覆蓋。XDA 用戶將移除動作與損壞的通話錄音按鈕連結在一起。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1600,7 +1601,7 @@
     },
     {
       "package": "com.android.theme.font.notoserifsource",
-      "description": "Optional Noto Serif/Source Sans font pack. Nothing depends on it.",
+      "description": "選用的 Noto Serif/Source Sans 字型套件。沒有東西相依於它。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -1616,7 +1617,7 @@
     },
     {
       "package": "com.android.thememanager",
-      "description": "MIUI Themes. UAD-ng: lock screen wallpaper and clock ringtones break; ovsky rates it risky.",
+      "description": "MIUI 主題。UAD-ng：鎖定螢幕桌布和時鐘鈴聲會失效；ovsky 評為具風險。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -1630,7 +1631,7 @@
     },
     {
       "package": "com.android.thememanager.customizethemeconfig.config.overlay",
-      "description": "Theme defaults overlay. Remove only if Themes itself is removed.",
+      "description": "主題預設值覆蓋。僅在主題本身被移除時才移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -1639,7 +1640,7 @@
     },
     {
       "package": "com.android.thememanager.gliobal_config.config.overlay",
-      "description": "Global Themes config overlay (wallpaper blocklist). Low impact.",
+      "description": "全域主題設定覆蓋（桌布黑名單）。影響低。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -1652,7 +1653,7 @@
     },
     {
       "package": "com.android.thememanager.module",
-      "description": "Theme manager module. UAD-ng Expert; keep unless you know you don't need themes.",
+      "description": "主題管理員模組。UAD-ng 專家級；除非你知道自己不需要主題，否則請保留。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -1661,7 +1662,7 @@
     },
     {
       "package": "com.android.traceur",
-      "description": "System tracing tool for developers. Nothing depends on it.",
+      "description": "給開發人員用的系統追蹤工具。沒有東西相依於它。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -1678,7 +1679,7 @@
     },
     {
       "package": "com.android.updater",
-      "description": "System Updater (OTA). Listed by KernelTruth, but older MIUI bootloops and you lose updates.",
+      "description": "系統更新程式（OTA）。KernelTruth 列出，但舊版 MIUI 會無限開機且你將失去更新。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -1692,7 +1693,7 @@
     },
     {
       "package": "com.android.vending",
-      "description": "Google Play Store. You can't install or update Play apps.",
+      "description": "Google Play 商店。你將無法安裝或更新 Play 應用程式。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1702,7 +1703,7 @@
     },
     {
       "package": "com.android.virtualmachine.res",
-      "description": "Permission holder for Android virtualization. UAD-ng Expert; 15 Ultra list removes it.",
+      "description": "Android 虛擬化的權限持有者。UAD-ng 專家級；15 Ultra 清單會移除它。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1716,7 +1717,7 @@
     },
     {
       "package": "com.android.voicedialer",
-      "description": "Voice dialer. Remove if you never dial by voice.",
+      "description": "語音撥號器。如果從不使用語音撥號則可移除。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1725,7 +1726,7 @@
     },
     {
       "package": "com.android.vpndialogs",
-      "description": "VPN consent dialogs. XDA: removing breaks all VPN apps. Keep if you use a VPN.",
+      "description": "VPN 同意對話方塊。XDA：移除會破壞所有 VPN 應用程式。如果你使用 VPN 請保留。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -1738,7 +1739,7 @@
     },
     {
       "package": "com.android.wallpaper.livepicker",
-      "description": "Live wallpaper picker. Some wallpaper/weather widget apps break without it.",
+      "description": "動態桌布選擇器。沒有它，某些桌布/天氣小工具應用程式會失效。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1753,7 +1754,7 @@
     },
     {
       "package": "com.android.wallpaperbackup",
-      "description": "Backs up wallpaper settings. Wallpaper not restored after reset.",
+      "description": "備份桌布設定。重設後桌布將無法還原。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1767,7 +1768,7 @@
     },
     {
       "package": "com.android.wallpapercropper",
-      "description": "Wallpaper crop tool. HyperOS may fail to set wallpapers without it.",
+      "description": "桌布裁切工具。沒有它，HyperOS 可能無法設定桌布。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -1781,7 +1782,7 @@
     },
     {
       "package": "com.android.wifi.resources.xiaomi",
-      "description": "Xiaomi Wi-Fi configuration resources. Keep or Wi-Fi may misbehave (UAD-ng Unsafe).",
+      "description": "小米 Wi-Fi 設定資源。請保留，否則 Wi-Fi 可能會異常（UAD-ng 不安全）。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -1791,7 +1792,7 @@
     },
     {
       "package": "com.audible.application",
-      "description": "Audible audiobooks preload.",
+      "description": "Audible 有聲書預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -1801,7 +1802,7 @@
     },
     {
       "package": "com.aura.oobe.deutsche",
-      "description": "Telekom out-of-box app recommender (carrier preload).",
+      "description": "Telekom 開箱應用程式推薦工具（電信商預載）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -1815,7 +1816,7 @@
     },
     {
       "package": "com.aura.oobe.vodafone",
-      "description": "Vodafone AppBox: post-setup app recommendations (carrier preload).",
+      "description": "Vodafone AppBox：設定後的應用程式推薦（電信商預載）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -1829,7 +1830,7 @@
     },
     {
       "package": "com.autonavi.minimap",
-      "description": "Amap (Gaode Maps) preload on China ROMs.",
+      "description": "高德地圖預載（僅限中國版 ROM）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -1838,7 +1839,7 @@
     },
     {
       "package": "com.baidu.input_mi",
-      "description": "Baidu keyboard (China ROM). Install another keyboard before removing.",
+      "description": "百度輸入法（中國版 ROM）。移除前請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -1848,7 +1849,7 @@
     },
     {
       "package": "com.bitdefender.security",
-      "description": "Bitdefender antivirus preload.",
+      "description": "Bitdefender 防毒軟體預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -1857,7 +1858,7 @@
     },
     {
       "package": "com.block.juggle",
-      "description": "Block Blast preloaded game.",
+      "description": "Block Blast 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -1867,7 +1868,7 @@
     },
     {
       "package": "com.block.puzzle.game.hippo.mi",
-      "description": "Block Puzzle preloaded game.",
+      "description": "Block Puzzle 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -1881,7 +1882,7 @@
     },
     {
       "package": "com.booking",
-      "description": "Booking.com app preload.",
+      "description": "Booking.com 應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -1895,7 +1896,7 @@
     },
     {
       "package": "com.bsp.catchlog",
-      "description": "Board support package log catcher (debug logs). Not needed for normal use.",
+      "description": "主機板支援套件記錄收集器（除錯記錄）。正常使用不需要。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -1913,7 +1914,7 @@
     },
     {
       "package": "com.caf.fmradio",
-      "description": "Qualcomm FM radio app. Remove if you don't listen to FM.",
+      "description": "高通 FM 收音機應用程式。如果不聽 FM 廣播可移除。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -1926,7 +1927,7 @@
     },
     {
       "package": "com.cequint.ecid",
-      "description": "Cequint caller ID (carrier service).",
+      "description": "Cequint 來電顯示（電信商服務）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -1936,7 +1937,7 @@
     },
     {
       "package": "com.crazy.juicer.xm",
-      "description": "Preloaded casual game (Crazy Juicer).",
+      "description": "預載休閒遊戲（Crazy Juicer）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -1949,7 +1950,7 @@
     },
     {
       "package": "com.dragon.read",
-      "description": "Chinese reading app preload (China ROM).",
+      "description": "中文閱讀應用程式預載（中國版 ROM）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -1958,7 +1959,7 @@
     },
     {
       "package": "com.dsi.ant.plugins.antplus",
-      "description": "ANT+ plugins for fitness sensors. Remove if you don't use ANT+ devices.",
+      "description": "用於健身感測器的 ANT+ 外掛程式。如果不使用 ANT+ 裝置可移除。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1968,7 +1969,7 @@
     },
     {
       "package": "com.dsi.ant.sample.acquirechannels",
-      "description": "ANT+ channel helper. Remove if you don't use ANT+ devices.",
+      "description": "ANT+ 通道輔助程式。如果不使用 ANT+ 裝置可移除。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1978,7 +1979,7 @@
     },
     {
       "package": "com.dsi.ant.server",
-      "description": "ANT HAL server for fitness sensors. Remove if you don't use ANT+ devices.",
+      "description": "用於健身感測器的 ANT HAL 伺服器。如果不使用 ANT+ 裝置可移除。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1988,7 +1989,7 @@
     },
     {
       "package": "com.dsi.ant.service.socket",
-      "description": "ANT radio service for fitness sensors. Remove if you don't use ANT+ devices.",
+      "description": "用於健身感測器的 ANT 無線電服務。如果不使用 ANT+ 裝置可移除。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -1998,7 +1999,7 @@
     },
     {
       "package": "com.dti.bouyguestelecom",
-      "description": "Bouygues carrier app installer (AppCloud).",
+      "description": "Bouygues 電信商應用程式安裝程式（AppCloud）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2012,7 +2013,7 @@
     },
     {
       "package": "com.dti.telefonica",
-      "description": "O2/Telefónica carrier app installer running in background.",
+      "description": "在背景執行的 O2/Telefónica 電信商應用程式安裝程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2026,7 +2027,7 @@
     },
     {
       "package": "com.duokan.phone.remotecontroller",
-      "description": "Mi Remote (IR blaster). Remove if you don't control TVs/ACs with the phone.",
+      "description": "萬能遙控（紅外線發射器）。如果不使用手機控制電視/冷氣可移除。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -2041,7 +2042,7 @@
     },
     {
       "package": "com.duokan.phone.remotecontroller.peel.plugin",
-      "description": "Peel TV guide plugin for Mi Remote.",
+      "description": "萬能遙控的 Peel 電視指南外掛程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -2050,7 +2051,7 @@
     },
     {
       "package": "com.duokan.reader",
-      "description": "Duokan e-reader (China ROM) with ads/tracking.",
+      "description": "多看閱讀（中國版 ROM），包含廣告與追蹤功能。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2059,7 +2060,7 @@
     },
     {
       "package": "com.ebay.carrier",
-      "description": "eBay carrier-preload stub.",
+      "description": "eBay 電信商預載捷徑。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2072,7 +2073,7 @@
     },
     {
       "package": "com.ebay.mobile",
-      "description": "eBay preload",
+      "description": "eBay 預載",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2081,7 +2082,7 @@
     },
     {
       "package": "com.einnovation.temu",
-      "description": "Temu shopping app preload.",
+      "description": "Temu 購物應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2090,7 +2091,7 @@
     },
     {
       "package": "com.facebook.appmanager",
-      "description": "Facebook App Manager: updates Facebook apps in the background.",
+      "description": "Facebook App Manager：在背景更新 Facebook 應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2109,7 +2110,7 @@
     },
     {
       "package": "com.facebook.katana",
-      "description": "Facebook app preload.",
+      "description": "Facebook 應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2125,7 +2126,7 @@
     },
     {
       "package": "com.facebook.orca",
-      "description": "Facebook Messenger preload.",
+      "description": "Facebook Messenger 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2135,7 +2136,7 @@
     },
     {
       "package": "com.facebook.services",
-      "description": "Facebook background services for preloaded Facebook apps.",
+      "description": "預載 Facebook 應用程式所需的背景服務。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2154,7 +2155,7 @@
     },
     {
       "package": "com.facebook.system",
-      "description": "Facebook installer stub that prompts you to install Facebook.",
+      "description": "提示您安裝 Facebook 的 Facebook 安裝程式捷徑。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2173,7 +2174,7 @@
     },
     {
       "package": "com.facemoji.lite.xiaomi",
-      "description": "Facemoji keyboard (ads/analytics). Install another keyboard first.",
+      "description": "Facemoji 鍵盤（含廣告/分析功能）。請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -2182,7 +2183,7 @@
     },
     {
       "package": "com.facemoji.lite.xiaomi.gp",
-      "description": "Facemoji keyboard (Play version). Install another keyboard first.",
+      "description": "Facemoji 鍵盤（Play 版本）。請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -2191,7 +2192,7 @@
     },
     {
       "package": "com.fido.asm",
-      "description": "FIDO authenticator for passwordless/biometric logins. Some apps may need it.",
+      "description": "用於無密碼/生物辨識登入的 FIDO 驗證器。某些應用程式可能會需要它。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2204,7 +2205,7 @@
     },
     {
       "package": "com.fido.xiaomi.uafclient",
-      "description": "Xiaomi FIDO client for biometric app logins. Remove only if you don't use passkeys-style login.",
+      "description": "用於生物辨識應用程式登入的小米 FIDO 客戶端。如果不使用通行密鑰（passkeys）風格登入可移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -2217,7 +2218,7 @@
     },
     {
       "package": "com.fingerprints.extension.service",
-      "description": "Fingerprint sensor test extension. Not used in normal operation.",
+      "description": "指紋感測器測試延伸功能。在正常運作中不會使用。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -2230,7 +2231,7 @@
     },
     {
       "package": "com.fingerprints.sensortesttool",
-      "description": "Hidden fingerprint sensor test tool.",
+      "description": "隱藏的指紋感測器測試工具。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -2243,7 +2244,7 @@
     },
     {
       "package": "com.flipboard.app",
-      "description": "Flipboard news app preload.",
+      "description": "Flipboard 新聞應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2252,7 +2253,7 @@
     },
     {
       "package": "com.flipboard.boxer.app",
-      "description": "Flipboard briefing preload.",
+      "description": "Flipboard briefing 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2261,7 +2262,7 @@
     },
     {
       "package": "com.fugo.wow",
-      "description": "Words of Wonders preloaded game.",
+      "description": "Words of Wonders 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2270,7 +2271,7 @@
     },
     {
       "package": "com.funtomic.matchmasters",
-      "description": "Match Masters preloaded game.",
+      "description": "Match Masters 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2279,7 +2280,7 @@
     },
     {
       "package": "com.gallery.player",
-      "description": "Old MIUI Gallery video player. Gallery video playback may break.",
+      "description": "舊版 MIUI 相簿影片播放器。相簿的影片播放可能會失效。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -2288,7 +2289,7 @@
     },
     {
       "package": "com.gameduell.tarot",
-      "description": "Preloaded tarot/card game.",
+      "description": "預載塔羅牌/紙牌遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2297,7 +2298,7 @@
     },
     {
       "package": "com.goodix.fingerprint",
-      "description": "Goodix fingerprint manager stub (no code). Test component.",
+      "description": "匯頂（Goodix）指紋管理員捷徑（無程式碼）。測試元件。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -2310,7 +2311,7 @@
     },
     {
       "package": "com.goodix.fingerprint.producttest",
-      "description": "Hidden Goodix fingerprint factory test.",
+      "description": "隱藏的匯頂指紋原廠測試工具。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -2324,7 +2325,7 @@
     },
     {
       "package": "com.goodix.gftest",
-      "description": "Hidden Goodix fingerprint test app.",
+      "description": "隱藏的匯頂指紋測試應用程式。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -2337,7 +2338,7 @@
     },
     {
       "package": "com.google.ambient.streaming",
-      "description": "Streams phone apps to a Chromebook. Remove if you don't use that.",
+      "description": "將手機應用程式串流至 Chromebook。如果沒使用此功能可移除。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2351,7 +2352,7 @@
     },
     {
       "package": "com.google.android.accessibility.switchaccess",
-      "description": "Switch Access (control phone with switches). Accessibility only.",
+      "description": "開關控制（使用開關控制手機）。僅供無障礙使用。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -2365,7 +2366,7 @@
     },
     {
       "package": "com.google.android.adservices.api",
-      "description": "Privacy Sandbox ad services (Android 13+). Removed in 15 Ultra list; Play may reinstall.",
+      "description": "隱私沙箱廣告服務（Android 13+）。已在 15 Ultra 清單中移除；Play 商店可能會重新安裝它。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2379,7 +2380,7 @@
     },
     {
       "package": "com.google.android.apps.books",
-      "description": "Google Play Books preload.",
+      "description": "Google Play 圖書預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2389,7 +2390,7 @@
     },
     {
       "package": "com.google.android.apps.docs",
-      "description": "Google Drive preload.",
+      "description": "Google 雲端硬碟預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2406,7 +2407,7 @@
     },
     {
       "package": "com.google.android.apps.googleassistant",
-      "description": "Google Assistant shortcut app.",
+      "description": "Google 助理捷徑應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2419,7 +2420,7 @@
     },
     {
       "package": "com.google.android.apps.healthdata",
-      "description": "Health data framework stub. UAD-ng says not needed for Health Connect.",
+      "description": "健康資料框架捷徑。UAD-ng 表示 Health Connect 不需要它。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2432,7 +2433,7 @@
     },
     {
       "package": "com.google.android.apps.magazines",
-      "description": "Google News preload.",
+      "description": "Google 新聞預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2446,7 +2447,7 @@
     },
     {
       "package": "com.google.android.apps.maps",
-      "description": "Google Maps preload.",
+      "description": "Google 地圖預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2459,7 +2460,7 @@
     },
     {
       "package": "com.google.android.apps.messaging",
-      "description": "Google Messages. Install another SMS app first or you lose texting.",
+      "description": "Google 訊息。請先安裝其他簡訊應用程式，否則會無法傳送文字訊息。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2472,7 +2473,7 @@
     },
     {
       "package": "com.google.android.apps.photos",
-      "description": "Google Photos preload.",
+      "description": "Google 相簿預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2485,7 +2486,7 @@
     },
     {
       "package": "com.google.android.apps.plus",
-      "description": "Google+ (discontinued service).",
+      "description": "Google+（已停用服務）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -2495,7 +2496,7 @@
     },
     {
       "package": "com.google.android.apps.podcasts",
-      "description": "Google Podcasts (discontinued service).",
+      "description": "Google Podcasts（已停用服務）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2508,7 +2509,7 @@
     },
     {
       "package": "com.google.android.apps.restore",
-      "description": "Google restore wizard used after reset. Not needed after setup.",
+      "description": "重設後使用的 Google 還原精靈。設定完成後即不需要。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -2524,7 +2525,7 @@
     },
     {
       "package": "com.google.android.apps.safetyhub",
-      "description": "Google Personal Safety (car crash, emergency sharing). Remove if unused.",
+      "description": "Google 個人安全（車禍偵測、緊急共用）。如果不使用可移除。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2540,7 +2541,7 @@
     },
     {
       "package": "com.google.android.apps.setupwizard.searchselector",
-      "description": "Search-engine chooser shown during setup. Not needed afterwards.",
+      "description": "在設定期間顯示的搜尋引擎選擇器。之後不需要。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -2556,7 +2557,7 @@
     },
     {
       "package": "com.google.android.apps.subscriptions.red",
-      "description": "Google One app preload.",
+      "description": "Google One 應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2573,7 +2574,7 @@
     },
     {
       "package": "com.google.android.apps.tachyon",
-      "description": "Google Meet/Duo video calling preload.",
+      "description": "Google Meet/Duo 視訊通話預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2591,7 +2592,7 @@
     },
     {
       "package": "com.google.android.apps.turbo",
-      "description": "Device Health Services (adaptive battery). UAD-ng: battery settings break.",
+      "description": "裝置健康服務（自我調適電池）。UAD-ng：電池設定會失效。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -2604,7 +2605,7 @@
     },
     {
       "package": "com.google.android.apps.walletnfcrel",
-      "description": "Google Wallet/Pay. Contactless payments stop if removed.",
+      "description": "Google 錢包/Google Pay。如果移除，非接觸式行動支付將停止運作。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2617,7 +2618,7 @@
     },
     {
       "package": "com.google.android.apps.wellbeing",
-      "description": "Digital Wellbeing (screen time, bedtime mode). Remove if you don't use it.",
+      "description": "數位健康（螢幕使用時間、就寢模式）。如果不使用可移除。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2634,7 +2635,7 @@
     },
     {
       "package": "com.google.android.apps.youtube.music",
-      "description": "YouTube Music preload.",
+      "description": "YouTube Music 預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2651,7 +2652,7 @@
     },
     {
       "package": "com.google.android.as",
-      "description": "Android System Intelligence: smart text, live caption, app suggestions.",
+      "description": "Android 系統智慧（Android System Intelligence）：智慧文字、即時字幕、應用程式建議。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2665,7 +2666,7 @@
     },
     {
       "package": "com.google.android.as.oss",
-      "description": "Private Compute Services, a helper for System Intelligence features.",
+      "description": "私人計算服務（Private Compute Services），系統智慧功能的輔助工具。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2679,7 +2680,7 @@
     },
     {
       "package": "com.google.android.calendar",
-      "description": "Google Calendar preload.",
+      "description": "Google 行事曆預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2692,7 +2693,7 @@
     },
     {
       "package": "com.google.android.cellbroadcastreceiver",
-      "description": "Wireless emergency alerts. 15 Ultra list removes it, but you lose alerts (UAD-ng Expert).",
+      "description": "無線緊急警報。15 Ultra 清單會移除它，但你會失去警報（UAD-ng 專家級）。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -2706,7 +2707,7 @@
     },
     {
       "package": "com.google.android.cellbroadcastreceiver.overlay.miui",
-      "description": "MIUI overlay for emergency alerts. Low impact.",
+      "description": "緊急警報的 MIUI 覆蓋。影響低。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2720,7 +2721,7 @@
     },
     {
       "package": "com.google.android.cellbroadcastservice",
-      "description": "Cell broadcast service behind emergency alerts. UAD-ng Expert.",
+      "description": "支援緊急警報的細胞廣播服務。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -2734,7 +2735,7 @@
     },
     {
       "package": "com.google.android.cellbroadcastservice.overlay.miui",
-      "description": "MIUI overlay for cell broadcast service. Low impact.",
+      "description": "細胞廣播服務的 MIUI 覆蓋。影響低。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2748,7 +2749,7 @@
     },
     {
       "package": "com.google.android.configupdater",
-      "description": "Pushes TLS pins, SMS short-code and other security config updates. UAD-ng Expert.",
+      "description": "推送 TLS 憑證釘選、簡訊短碼和其他安全性設定更新。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -2761,7 +2762,7 @@
     },
     {
       "package": "com.google.android.contacts",
-      "description": "Google Contacts. Keep one contacts app installed.",
+      "description": "Google 聯絡人。請至少保留一個聯絡人應用程式安裝在手機中。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2774,7 +2775,7 @@
     },
     {
       "package": "com.google.android.dialer",
-      "description": "Google Phone, the default dialer on many global Xiaomi builds. Install another dialer first.",
+      "description": "Google 電話，許多全球版小米手機的預設撥號器。請先安裝其他撥號器。",
       "category": "bloatware",
       "risk": "danger",
       "os": [
@@ -2787,7 +2788,7 @@
     },
     {
       "package": "com.google.android.documentsui",
-      "description": "File picker (Storage Access Framework). Apps can't open/save files.",
+      "description": "檔案選擇器（儲存空間存取架構）。若移除，應用程式將無法開啟/儲存檔案。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -2797,7 +2798,7 @@
     },
     {
       "package": "com.google.android.ext.services",
-      "description": "Core ExtServices module (notification ranking, autofill). UAD-ng Unsafe.",
+      "description": "核心 ExtServices 模組（通知排序、自動填入）。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -2807,7 +2808,7 @@
     },
     {
       "package": "com.google.android.ext.shared",
-      "description": "Shared Android library. Listed by KernelTruth, but UAD-ng reports bootloop on MIUI 14.",
+      "description": "共用 Android 程式庫。KernelTruth 列出，但 UAD-ng 回報在 MIUI 14 上會導致無限開機。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -2821,7 +2822,7 @@
     },
     {
       "package": "com.google.android.federatedcompute",
-      "description": "Federated learning component of Google's on-device personalization/ads stack.",
+      "description": "Google 裝置端個人化/廣告堆疊的聯邦學習元件。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2835,7 +2836,7 @@
     },
     {
       "package": "com.google.android.feedback",
-      "description": "Play Store feedback/crash report sender (Market Feedback Agent).",
+      "description": "Play 商店意見反應/當機報告傳送器（市場意見反應代理程式）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2852,7 +2853,7 @@
     },
     {
       "package": "com.google.android.gm",
-      "description": "Gmail preload. Remove if you use another mail app.",
+      "description": "Gmail 預載。如果使用其他郵件應用程式則可移除。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2867,7 +2868,7 @@
     },
     {
       "package": "com.google.android.gms",
-      "description": "Google Play Services. Almost every Google and many third-party apps break.",
+      "description": "Google Play 服務。幾乎所有 Google 應用程式和許多第三方應用程式都會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -2877,7 +2878,7 @@
     },
     {
       "package": "com.google.android.gms.location.history",
-      "description": "Google Location History stub (icon/name only).",
+      "description": "Google 定位記錄捷徑（僅圖示/名稱）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -2893,7 +2894,7 @@
     },
     {
       "package": "com.google.android.gms.supervision",
-      "description": "Family Link parental controls component. Needed only for supervised accounts.",
+      "description": "Family Link 家長監護元件。僅受監護帳戶需要。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2907,7 +2908,7 @@
     },
     {
       "package": "com.google.android.googlequicksearchbox",
-      "description": "Google app/Search. Assistant, Discover and search widget stop working.",
+      "description": "Google 應用程式/搜尋。助理、Discover 動態牆和搜尋小工具會停止運作。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2922,7 +2923,7 @@
     },
     {
       "package": "com.google.android.gsf",
-      "description": "Google Services Framework. Sign-in, push and Play break.",
+      "description": "Google 服務框架（Google Services Framework）。登入、推播和 Play 商店會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -2932,7 +2933,7 @@
     },
     {
       "package": "com.google.android.health.connect.backuprestore",
-      "description": "Health Connect backup/restore. XDA: remove with the other Health Connect parts.",
+      "description": "Health Connect 備份/還原。XDA：請與其他 Health Connect 元件一起移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2946,7 +2947,7 @@
     },
     {
       "package": "com.google.android.healthconnect.controller",
-      "description": "Health Connect: shares data between fitness apps. Fitness apps may lose sync.",
+      "description": "Health Connect：在健身應用程式之間共用資料。健身應用程式可能會失去同步。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2960,7 +2961,7 @@
     },
     {
       "package": "com.google.android.ims",
-      "description": "Carrier Services (RCS chat, VoLTE features on some carriers). Keep if you use RCS.",
+      "description": "電信商服務（RCS 聊天、部分電信商的 VoLTE 功能）。如果使用 RCS 請保留。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -2973,7 +2974,7 @@
     },
     {
       "package": "com.google.android.inputmethod.latin",
-      "description": "Gboard. Install another keyboard first or you lose text input.",
+      "description": "Gboard。請先安裝其他鍵盤，否則將無法輸入文字。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -2986,7 +2987,7 @@
     },
     {
       "package": "com.google.android.marvin.talkback",
-      "description": "Android Accessibility Suite (TalkBack, Select to Speak). Needed for accessibility users.",
+      "description": "Android 無障礙套件（TalkBack、選取以朗讀）。無障礙使用者所需。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3004,7 +3005,7 @@
     },
     {
       "package": "com.google.android.music",
-      "description": "Google Play Music (discontinued).",
+      "description": "Google Play 音樂（已停用）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3014,7 +3015,7 @@
     },
     {
       "package": "com.google.android.networkstack.tethering",
-      "description": "Tethering stack. Hotspot and USB/Bluetooth tethering break.",
+      "description": "網路共享堆疊。無線基地台和 USB/藍牙網路共享會失效。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3026,7 +3027,7 @@
     },
     {
       "package": "com.google.android.ondevicepersonalization.services",
-      "description": "On-device personalization for Privacy Sandbox ads.",
+      "description": "隱私沙箱廣告的裝置端個人化服務。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3040,7 +3041,7 @@
     },
     {
       "package": "com.google.android.onetimeinitializer",
-      "description": "Google first-boot initializer. Not needed after setup.",
+      "description": "Google 首次開機初始化工具。設定完成後不需要。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -3056,7 +3057,7 @@
     },
     {
       "package": "com.google.android.overlay.gmsconfig.common",
-      "description": "Google services config overlay. UAD-ng: Google sign-in in apps can break.",
+      "description": "Google 服務設定覆蓋。UAD-ng：應用程式內的 Google 登入可能會失效。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3069,7 +3070,7 @@
     },
     {
       "package": "com.google.android.overlay.gmsconfig.geotz",
-      "description": "Google time-zone-by-location config. UAD-ng Expert; KernelTruth lists it.",
+      "description": "依據位置設定時區的 Google 設定。UAD-ng 專家級；KernelTruth 列出。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3082,7 +3083,7 @@
     },
     {
       "package": "com.google.android.overlay.gmsconfig.gsa",
-      "description": "Default assistant config overlay. Low impact per UAD-ng.",
+      "description": "預設助理設定覆蓋。依 UAD-ng 指出影響低。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3095,7 +3096,7 @@
     },
     {
       "package": "com.google.android.overlay.gmsconfig.photos",
-      "description": "Google Photos config overlay. UAD-ng reports unlock failure on some Android 15 devices.",
+      "description": "Google 相簿設定覆蓋。UAD-ng 回報在某些 Android 15 裝置上解鎖會失敗。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3110,7 +3111,7 @@
     },
     {
       "package": "com.google.android.overlay.gmsconfig.searchselector",
-      "description": "Search selector overlay. 15 Ultra list removes it, but UAD-ng reports many apps crashing.",
+      "description": "搜尋選擇器覆蓋。15 Ultra 清單會移除它，但 UAD-ng 回報許多應用程式會當機。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3125,7 +3126,7 @@
     },
     {
       "package": "com.google.android.overlay.modules.captiveportallogin.forframework",
-      "description": "Captive-portal login defaults overlay. Removed in 15 Ultra list.",
+      "description": "受限網路登入（Captive Portal）預設值覆蓋。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3139,7 +3140,7 @@
     },
     {
       "package": "com.google.android.overlay.modules.documentsui",
-      "description": "Files/DocumentsUI overlay. UAD-ng reports broken Settings pages on Android 15.",
+      "description": "檔案/DocumentsUI 覆蓋。UAD-ng 回報在 Android 15 上設定頁面會損壞。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3153,7 +3154,7 @@
     },
     {
       "package": "com.google.android.overlay.modules.healthfitness.forframework",
-      "description": "Health Connect framework overlay. XDA: remove with Health Connect.",
+      "description": "Health Connect 框架覆蓋。XDA：請與 Health Connect 一起移除。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -3167,7 +3168,7 @@
     },
     {
       "package": "com.google.android.overlay.modules.permissioncontroller",
-      "description": "Permission controller overlay. XDA users linked it to the call-record button.",
+      "description": "權限控制工具覆蓋。XDA 用戶將其與通話錄音按鈕連結在一起。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3183,7 +3184,7 @@
     },
     {
       "package": "com.google.android.overlay.modules.permissioncontroller.forframework",
-      "description": "Permission controller framework overlay. UAD-ng Expert.",
+      "description": "權限控制工具框架覆蓋。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3196,7 +3197,7 @@
     },
     {
       "package": "com.google.android.packageinstaller",
-      "description": "Package installer on newer Android. APK installs/updates fail.",
+      "description": "較新 Android 版本上的套件安裝程式。APK 安裝/更新會失敗。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -3206,7 +3207,7 @@
     },
     {
       "package": "com.google.android.partnersetup",
-      "description": "Google Partner Setup (partner/account integration). Some Google features may break.",
+      "description": "Google 合作夥伴設定（合作夥伴/帳戶整合）。某些 Google 功能可能會失效。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3219,7 +3220,7 @@
     },
     {
       "package": "com.google.android.permissioncontroller",
-      "description": "Permission controller. Apps can't request permissions.",
+      "description": "權限控制工具。應用程式將無法要求權限。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -3229,7 +3230,7 @@
     },
     {
       "package": "com.google.android.printservice.recommendation",
-      "description": "Suggests print plugins from Play Store.",
+      "description": "建議從 Play 商店下載列印外掛程式。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -3246,7 +3247,7 @@
     },
     {
       "package": "com.google.android.projection.gearhead",
-      "description": "Android Auto. Car integration stops; mpierson notes reinstall to fix Auto.",
+      "description": "Android Auto。車載整合會停止；mpierson 指出重新安裝可修復 Auto。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -3261,7 +3262,7 @@
     },
     {
       "package": "com.google.android.setupwizard",
-      "description": "Google setup wizard. UAD-ng warns removal can cause issues; only KernelTruth lists it.",
+      "description": "Google 設定精靈。UAD-ng 警告移除可能會造成問題；僅 KernelTruth 列出它。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -3274,7 +3275,7 @@
     },
     {
       "package": "com.google.android.talk",
-      "description": "Google Hangouts (discontinued).",
+      "description": "Google Hangouts（已停用）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3284,7 +3285,7 @@
     },
     {
       "package": "com.google.android.tts",
-      "description": "Google text-to-speech. Navigation voice and read-aloud stop working.",
+      "description": "Google 文字轉語音。導航語音和朗讀功能將停止運作。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3301,7 +3302,7 @@
     },
     {
       "package": "com.google.android.videos",
-      "description": "Google TV (Play Movies) preload.",
+      "description": "Google TV（Play 電影）預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3318,7 +3319,7 @@
     },
     {
       "package": "com.google.android.webview",
-      "description": "Android System WebView. Apps that show web content break.",
+      "description": "Android System WebView。顯示網頁內容的應用程式會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -3328,7 +3329,7 @@
     },
     {
       "package": "com.google.android.wifi.resources.xiaomi",
-      "description": "Xiaomi overlay for Wi-Fi resources. UAD-ng saw no Wi-Fi issues after removal.",
+      "description": "小米 Wi-Fi 資源覆蓋。UAD-ng 移除後未發現 Wi-Fi 問題。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -3337,7 +3338,7 @@
     },
     {
       "package": "com.google.android.youtube",
-      "description": "YouTube preload.",
+      "description": "YouTube 預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3354,7 +3355,7 @@
     },
     {
       "package": "com.google.ar.core",
-      "description": "Google Play Services for AR. AR features in apps stop working.",
+      "description": "Google Play 服務（AR 擴增實境）。應用程式中的 AR 功能會停止運作。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -3364,7 +3365,7 @@
     },
     {
       "package": "com.google.ar.lens",
-      "description": "Google Lens standalone app.",
+      "description": "Google Lens（智慧鏡頭）獨立應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3378,7 +3379,7 @@
     },
     {
       "package": "com.google.audio.hearing.visualization.accessibility.scribe",
-      "description": "Live Transcribe & Sound Notifications (accessibility).",
+      "description": "即時轉錄與聲音通知（無障礙功能）。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -3388,7 +3389,7 @@
     },
     {
       "package": "com.google.mainline.adservices",
-      "description": "AdServices mainline version marker. Removed in 15 Ultra list; mandatory module per UAD-ng.",
+      "description": "AdServices 主線版本標記。已在 15 Ultra 清單中移除；根據 UAD-ng 為強制性模組。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -3402,7 +3403,7 @@
     },
     {
       "package": "com.google.mainline.telemetry",
-      "description": "Reports installed mainline module versions to Play. Module updates may be affected.",
+      "description": "向 Play 回報已安裝的主線模組版本。模組更新可能會受影響。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -3415,7 +3416,7 @@
     },
     {
       "package": "com.google.vr.vrcore",
-      "description": "Google VR Services (discontinued).",
+      "description": "Google VR 服務（已停用）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3425,7 +3426,7 @@
     },
     {
       "package": "com.gotv.nflgamecenter.us.lite",
-      "description": "NFL app carrier preload.",
+      "description": "NFL 應用程式電信商預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3435,7 +3436,7 @@
     },
     {
       "package": "com.huaqin.diaglogger",
-      "description": "Hidden diagnostic logger opened via dialer codes (ODM Huaqin).",
+      "description": "透過撥號盤代碼開啟的隱藏診斷記錄器（ODM 華勤）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3444,7 +3445,7 @@
     },
     {
       "package": "com.iflytek.inputmethod.miui",
-      "description": "iFlytek keyboard (China ROM). Install another keyboard first.",
+      "description": "科大訊飛輸入法（中國版 ROM）。移除前請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -3454,7 +3455,7 @@
     },
     {
       "package": "com.imdb.mobile",
-      "description": "IMDb app preload.",
+      "description": "IMDb 應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3464,7 +3465,7 @@
     },
     {
       "package": "com.infraware.polarisoffice5",
-      "description": "Polaris Office preload.",
+      "description": "Polaris Office 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3474,7 +3475,7 @@
     },
     {
       "package": "com.ironsource.appcloud.oobe.hutchison",
-      "description": "ironSource AppCloud app recommender for Three/Hutchison (ad company).",
+      "description": "針對 Three/Hutchison 的 ironSource AppCloud 應用程式推薦工具（廣告公司）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3488,7 +3489,7 @@
     },
     {
       "package": "com.jewelsblast.ivygames.Adventure.free",
-      "description": "Jewels Blast preloaded game.",
+      "description": "Jewels Blast 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3502,7 +3503,7 @@
     },
     {
       "package": "com.jiiov.fingerprint_factorytest",
-      "description": "Factory test for Jiiov fingerprint sensors.",
+      "description": "Jiiov 指紋感測器原廠測試。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3511,7 +3512,7 @@
     },
     {
       "package": "com.kingsgroup.ss.xiaomi",
-      "description": "KingsGroup preloaded game (Xiaomi edition). Listed by KernelTruth.",
+      "description": "KingsGroup 預載遊戲（小米版）。由 KernelTruth 列出。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3523,7 +3524,7 @@
     },
     {
       "package": "com.lbe.security.miui",
-      "description": "MIUI permission manager. ovsky restore-only; UAD-ng Unsafe. Never remove.",
+      "description": "MIUI 權限管理員。ovsky 僅限還原；UAD-ng 不安全。絕不能移除。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -3534,7 +3535,7 @@
     },
     {
       "package": "com.lbe.security.miui.customizedregion.overlay",
-      "description": "Region overlay for MIUI permission manager. Low impact.",
+      "description": "MIUI 權限管理員的區域覆蓋。影響低。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -3543,7 +3544,7 @@
     },
     {
       "package": "com.lemon.lvoverseas",
-      "description": "CapCut video editor preload.",
+      "description": "剪映（CapCut）影片編輯器預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3552,7 +3553,7 @@
     },
     {
       "package": "com.linkedin.android",
-      "description": "LinkedIn app preload.",
+      "description": "LinkedIn 應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3566,7 +3567,7 @@
     },
     {
       "package": "com.logame.eliminateintruder3d",
-      "description": "Preloaded casual game.",
+      "description": "預載休閒遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3580,7 +3581,7 @@
     },
     {
       "package": "com.longcheertel.midtest",
-      "description": "Hidden hardware assembly test (ODM Longcheer).",
+      "description": "隱藏的硬體組裝測試（ODM 龍旗）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -3593,7 +3594,7 @@
     },
     {
       "package": "com.mediatek.engineermode",
-      "description": "MediaTek engineer mode (hidden debug menu). Not needed normally.",
+      "description": "聯發科工程模式（隱藏除錯選單）。正常情況下不需要。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -3602,7 +3603,7 @@
     },
     {
       "package": "com.mfashiongallery.emag",
-      "description": "Xiaomi wallpaper/lock screen magazine (China).",
+      "description": "小米桌布/鎖定螢幕雜誌（中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3611,7 +3612,7 @@
     },
     {
       "package": "com.mi.android.g",
-      "description": "Undocumented Xiaomi package listed only by KernelTruth; purpose unknown.",
+      "description": "僅由 KernelTruth 列出的未記錄小米套件；用途不明。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -3623,7 +3624,7 @@
     },
     {
       "package": "com.mi.android.globalFileexplorer",
-      "description": "Xiaomi File Manager (global). Has ads; install another file manager first.",
+      "description": "小米檔案管理員（國際版）。有廣告；請先安裝其他檔案管理員。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -3638,7 +3639,7 @@
     },
     {
       "package": "com.mi.android.globallauncher",
-      "description": "POCO Launcher. Removing loses home screen, gestures and recents.",
+      "description": "POCO 桌面。移除會失去首頁、手勢和最近開啟的應用程式畫面。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -3647,7 +3648,7 @@
     },
     {
       "package": "com.mi.android.globalpersonalassistant",
-      "description": "App Vault (left-of-home widget pane) on older global builds.",
+      "description": "舊版全球版中的快顯功能表/負一屏（App Vault）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3657,7 +3658,7 @@
     },
     {
       "package": "com.mi.appfinder",
-      "description": "Launcher app search helper. Removed on HyperOS 2/3 lists without breaking search.",
+      "description": "桌面應用程式搜尋幫手。在 HyperOS 2/3 清單中移除時不會破壞搜尋功能。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -3672,7 +3673,7 @@
     },
     {
       "package": "com.mi.global.bbs",
-      "description": "Xiaomi Community forum app.",
+      "description": "小米社群論壇應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3686,7 +3687,7 @@
     },
     {
       "package": "com.mi.global.pocobbs",
-      "description": "POCO Community forum app.",
+      "description": "POCO 社群論壇應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3696,7 +3697,7 @@
     },
     {
       "package": "com.mi.global.pocostore",
-      "description": "POCO online store app.",
+      "description": "POCO 線上商店應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3706,7 +3707,7 @@
     },
     {
       "package": "com.mi.global.shop",
-      "description": "Xiaomi Store shopping app.",
+      "description": "小米商城購物應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3716,7 +3717,7 @@
     },
     {
       "package": "com.mi.globalbrowser",
-      "description": "Mi Browser (global): ads and poor privacy record. Use another browser.",
+      "description": "小米瀏覽器（國際版）：廣告多且隱私記錄不佳。建議使用其他瀏覽器。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3734,7 +3735,7 @@
     },
     {
       "package": "com.mi.globalbrowser.mini",
-      "description": "Mi Browser Mini",
+      "description": "小米瀏覽器迷你版（Mi Browser Mini）",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3743,7 +3744,7 @@
     },
     {
       "package": "com.mi.globallayout",
-      "description": "Sets the global launcher layout on first run/reset. Launcher reset may look wrong.",
+      "description": "在首次執行/重設時設定全球版桌面版面配置。重設桌面時外觀可能會不正確。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -3752,7 +3753,7 @@
     },
     {
       "package": "com.mi.globalminusscreen",
-      "description": "App Vault: the swipe-left widget/feed page on the home screen.",
+      "description": "負一屏（App Vault）：主畫面上向右滑動的小工具/資訊頁面。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -3767,7 +3768,7 @@
     },
     {
       "package": "com.mi.health",
-      "description": "Hidden heart-rate app (older MIUI). Deprecated on HyperOS.",
+      "description": "隱藏的心率應用程式（舊版 MIUI）。在 HyperOS 上已遭棄用。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3776,7 +3777,7 @@
     },
     {
       "package": "com.mi.healthglobal",
-      "description": "Mi Health (steps, sleep, heart rate). Remove if you don't use it.",
+      "description": "小米運動健康（步數、睡眠、心率）。如果不使用可移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -3789,7 +3790,7 @@
     },
     {
       "package": "com.mi.webkit.core",
-      "description": "Xiaomi WebView alternative. Some Xiaomi apps may rely on it.",
+      "description": "小米 WebView 替代方案。某些小米應用程式可能會相依於它。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -3798,7 +3799,7 @@
     },
     {
       "package": "com.micredit.in",
-      "description": "Mi Credit loan app (India).",
+      "description": "小米借貸應用程式 Mi Credit（印度）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3812,7 +3813,7 @@
     },
     {
       "package": "com.microsoft.appmanager",
-      "description": "Link to Windows (Phone Link). Remove if you don't pair with a Windows PC.",
+      "description": "連動到 Windows（手機連線）。如果不與 Windows 電腦配對可移除。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3827,7 +3828,7 @@
     },
     {
       "package": "com.microsoft.deviceintegrationservice",
-      "description": "Helper for Link to Windows. Remove with it.",
+      "description": "「連動到 Windows」的輔助工具。請與其一起移除。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3841,7 +3842,7 @@
     },
     {
       "package": "com.microsoft.office.excel",
-      "description": "Microsoft Excel preload.",
+      "description": "微軟 Excel 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3851,7 +3852,7 @@
     },
     {
       "package": "com.microsoft.office.officehubrow",
-      "description": "Microsoft 365 (Office) hub preload.",
+      "description": "微軟 365 (Office) 中樞預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3861,7 +3862,7 @@
     },
     {
       "package": "com.microsoft.office.outlook",
-      "description": "Microsoft Outlook preload.",
+      "description": "微軟 Outlook 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3871,7 +3872,7 @@
     },
     {
       "package": "com.microsoft.office.powerpoint",
-      "description": "Microsoft PowerPoint preload.",
+      "description": "微軟 PowerPoint 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3881,7 +3882,7 @@
     },
     {
       "package": "com.microsoft.office.word",
-      "description": "Microsoft Word preload.",
+      "description": "微軟 Word 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3891,7 +3892,7 @@
     },
     {
       "package": "com.microsoft.skydrive",
-      "description": "Microsoft OneDrive preload.",
+      "description": "微軟 OneDrive 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3901,7 +3902,7 @@
     },
     {
       "package": "com.microsoftsdk.crossdeviceservicebroker",
-      "description": "Cross-device broker for Link to Windows. Remove with it.",
+      "description": "「連動到 Windows」的跨裝置代理程式。請與其一起移除。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3915,7 +3916,7 @@
     },
     {
       "package": "com.mig.play.games",
-      "description": "Funmax third-party game hub bundled by Xiaomi.",
+      "description": "小米捆綁的 Funmax 第三方遊戲中樞。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3924,7 +3925,7 @@
     },
     {
       "package": "com.milink.service",
-      "description": "Xiaomi casting/interconnect (UniPlay). Screen cast and some cross-device features stop.",
+      "description": "小米投屏/互聯（UniPlay）。螢幕投影和部分跨裝置功能會停止運作。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -3941,7 +3942,7 @@
     },
     {
       "package": "com.mintgames.triplecrush.tile.fun",
-      "description": "Tile Fun preloaded game.",
+      "description": "Tile Fun 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -3955,7 +3956,7 @@
     },
     {
       "package": "com.mintgames.wordtrip",
-      "description": "Word Trip preloaded game.",
+      "description": "Word Trip 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -3965,7 +3966,7 @@
     },
     {
       "package": "com.mipay.wallet",
-      "description": "Mi Pay/Xiaomi Wallet. Remove if you don't pay with Mi Pay.",
+      "description": "小米錢包/Mi Pay。如果不使用 Mi Pay 付款可移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -3975,7 +3976,7 @@
     },
     {
       "package": "com.mipay.wallet.id",
-      "description": "Mi Pay (Indonesia). Remove if unused.",
+      "description": "小米錢包（印尼）。如果未使用可移除。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3985,7 +3986,7 @@
     },
     {
       "package": "com.mipay.wallet.in",
-      "description": "Mi Pay (India). Remove if unused.",
+      "description": "小米錢包（印度）。如果未使用可移除。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -3995,7 +3996,7 @@
     },
     {
       "package": "com.mitv.milinkservice",
-      "description": "MiLink casting service (older). Screen casting to Xiaomi TVs stops.",
+      "description": "MiLink 投屏服務（舊版）。投影到小米電視的功能會停止。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4004,7 +4005,7 @@
     },
     {
       "package": "com.miui.accessibility",
-      "description": "Xiaomi accessibility features (Mi Ditto, speech output). Removed in 15 Ultra list.",
+      "description": "小米無障礙功能（Mi Ditto、語音輸出）。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4020,7 +4021,7 @@
     },
     {
       "package": "com.miui.analytics",
-      "description": "Xiaomi Analytics telemetry. Every source recommends removing it.",
+      "description": "小米分析遙測（Analytics）。所有來源都建議將其移除。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4033,13 +4034,14 @@
         "local15u",
         "mpierson",
         "ovsky",
+        "reddit",
         "uad",
         "xda"
       ]
     },
     {
       "package": "com.miui.android.fashiongallery",
-      "description": "Wallpaper Carousel (Glance) lock screen content feed.",
+      "description": "鎖定螢幕內容摘要（Glance 鎖定螢幕桌布輪播）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4053,7 +4055,7 @@
     },
     {
       "package": "com.miui.antispam",
-      "description": "Call/SMS spam blocker. Blocklist features stop working.",
+      "description": "通話/簡訊垃圾阻擋功能。黑名單功能將停止運作。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4062,7 +4064,7 @@
     },
     {
       "package": "com.miui.aod",
-      "description": "Always-on display and lock screen editor. In-screen fingerprint depends on it on some models.",
+      "description": "隨顯螢幕（Always-on display）與鎖定螢幕編輯器。在某些機型上，螢幕下指紋辨識相依於它。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -4072,7 +4074,7 @@
     },
     {
       "package": "com.miui.appvault",
-      "description": "App Vault (alternate package name); ovsky rates it risky.",
+      "description": "負一屏/App Vault（替代套件名稱）；ovsky 評定為具風險。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4081,7 +4083,7 @@
     },
     {
       "package": "com.miui.audioeffect",
-      "description": "Xiaomi audio effects/equalizer. Sound enhancements may disappear.",
+      "description": "小米音效/等化器。音訊增強效果可能會消失。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4091,7 +4093,7 @@
     },
     {
       "package": "com.miui.audiomonitor",
-      "description": "Call recording helper. XDA: removing breaks the call-record button in the dialer.",
+      "description": "通話錄音輔助程式。XDA：移除會破壞撥號器中的通話錄音按鈕。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4107,7 +4109,7 @@
     },
     {
       "package": "com.miui.backup",
-      "description": "Local backup/restore (Settings > Backup). Remove only if you back up another way.",
+      "description": "本機備份/還原（設定 > 備份）。僅在你使用其他方式備份時移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4125,7 +4127,7 @@
     },
     {
       "package": "com.miui.browser",
-      "description": "Mi Browser (alternate name). Install another browser first.",
+      "description": "小米瀏覽器（替代名稱）。請先安裝其他瀏覽器。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -4134,7 +4136,7 @@
     },
     {
       "package": "com.miui.bugreport",
-      "description": "Mi Feedback bug reporter; sends logs to Xiaomi.",
+      "description": "小米意見反應錯誤回報器；會將記錄傳送給小米。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4153,7 +4155,7 @@
     },
     {
       "package": "com.miui.calculator",
-      "description": "Xiaomi Calculator. Install another calculator if you need one.",
+      "description": "小米計算機。如果需要請安裝其他計算機。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4168,7 +4170,7 @@
     },
     {
       "package": "com.miui.calendar",
-      "description": "Xiaomi Calendar (alternate package name). Remove only if you use another calendar.",
+      "description": "小米行事曆（替代套件名稱）。僅在使用其他行事曆時才移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4177,7 +4179,7 @@
     },
     {
       "package": "com.miui.carlink",
-      "description": "CarWith car connection (mainly China-only cars).",
+      "description": "CarWith 車載連線（主要針對中國大陸車款）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4188,7 +4190,7 @@
     },
     {
       "package": "com.miui.carrierinstructions",
-      "description": "Shortcut to the carrier's online manual.",
+      "description": "電信商線上說明書捷徑。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -4197,7 +4199,7 @@
     },
     {
       "package": "com.miui.catcherpatch",
-      "description": "Helper for the Application Extension (autofill) service. Remove with it.",
+      "description": "應用程式延伸（自動填入）服務的輔助程式。請與其一起移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4206,7 +4208,7 @@
     },
     {
       "package": "com.miui.cit",
-      "description": "Hidden hardware test menu (CIT). Not used in daily use.",
+      "description": "隱藏硬體測試選單（CIT）。日常使用不會用到。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4224,7 +4226,7 @@
     },
     {
       "package": "com.miui.cleaner",
-      "description": "Xiaomi Cleaner (Cheetah-based) with ads. Storage cleanup in Security may go.",
+      "description": "小米垃圾清理（基於獵豹流動）含廣告。安全中心裡的儲存空間清理可能會消失。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4239,7 +4241,7 @@
     },
     {
       "package": "com.miui.cleanmaster",
-      "description": "Xiaomi Cleaner (older name), ad-supported junk cleaner.",
+      "description": "小米清理大師（舊名稱），有廣告支援的垃圾清理工具。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4253,7 +4255,7 @@
     },
     {
       "package": "com.miui.cloudbackup",
-      "description": "Xiaomi Cloud backup. Remove only if you don't back up to Xiaomi Cloud.",
+      "description": "小米雲端備份。僅在你未使用小米雲端備份時移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4271,7 +4273,7 @@
     },
     {
       "package": "com.miui.cloudservice",
-      "description": "Xiaomi Cloud sync core. ovsky rates it risky; mpierson says OTA/region change needs it.",
+      "description": "小米雲端同步核心。ovsky 評定為具風險；mpierson 表示 OTA/地區變更需要它。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -4289,7 +4291,7 @@
     },
     {
       "package": "com.miui.cloudservice.global",
-      "description": "Mi Cloud Service (global variant)",
+      "description": "小米雲端服務（全球版變體）",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4298,7 +4300,7 @@
     },
     {
       "package": "com.miui.cloudservice.sysbase",
-      "description": "Xiaomi Cloud base library. mpierson lists it among packages OTA updates need.",
+      "description": "小米雲端基礎程式庫。mpierson 將其列在 OTA 更新所需的套件中。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4313,7 +4315,7 @@
     },
     {
       "package": "com.miui.compass",
-      "description": "Xiaomi Compass app.",
+      "description": "小米指南針應用程式。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4328,7 +4330,7 @@
     },
     {
       "package": "com.miui.contentcatcher",
-      "description": "Application Extension Service (Xiaomi autofill/password sync).",
+      "description": "應用程式延伸服務（小米自動填入/密碼同步）。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4342,7 +4344,7 @@
     },
     {
       "package": "com.miui.contentextension",
-      "description": "Taplus: long-press on screen content for info/search. Off by default.",
+      "description": "長按螢幕內容以取得資訊/搜尋的传送门功能。預設為關閉。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4352,7 +4354,7 @@
     },
     {
       "package": "com.miui.core",
-      "description": "MIUI SDK used by nearly all Xiaomi apps. Do not remove.",
+      "description": "幾乎所有小米應用程式所使用的 MIUI SDK。請勿移除。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -4365,7 +4367,7 @@
     },
     {
       "package": "com.miui.core.internal.assistant",
-      "description": "Helper for the Chinese XiaoAI assistant.",
+      "description": "中國版小愛同學助理的輔助程式。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4374,7 +4376,7 @@
     },
     {
       "package": "com.miui.core.internal.editor.services",
-      "description": "MIUI internal editor service. UAD-ng Expert.",
+      "description": "MIUI 內部編輯器服務。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -4383,7 +4385,7 @@
     },
     {
       "package": "com.miui.core.internal.services",
-      "description": "MIUI internal auto-install/system services. KernelTruth lists it; UAD-ng Expert.",
+      "description": "MIUI 內部自動安裝/系統服務。KernelTruth 列出；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -4396,7 +4398,7 @@
     },
     {
       "package": "com.miui.cotaservice",
-      "description": "Carrier/config over-the-air updates; constantly checks in with Xiaomi.",
+      "description": "電信商/設定空中下載更新（OTA）；會持續與小米進行連線。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4408,7 +4410,7 @@
     },
     {
       "package": "com.miui.daemon",
-      "description": "MIUI Daemon: collects usage data. Most sources remove it; mpierson says OTA may need it.",
+      "description": "MIUI 常駐程式（Daemon）：收集使用資料。多數來源建議移除；mpierson 表示 OTA 可能需要它。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -4428,7 +4430,7 @@
     },
     {
       "package": "com.miui.easygo",
-      "description": "Unused MIUI helper with no user-facing function.",
+      "description": "沒有面向使用者功能的未使用 MIUI 輔助程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4437,7 +4439,7 @@
     },
     {
       "package": "com.miui.enbbs",
-      "description": "Old Xiaomi Forums app.",
+      "description": "舊版小米論壇應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -4446,7 +4448,7 @@
     },
     {
       "package": "com.miui.euicc",
-      "description": "eSIM manager. Remove only if you never use eSIM.",
+      "description": "eSIM 管理員。僅在你從未使用 eSIM 時移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4458,7 +4460,7 @@
     },
     {
       "package": "com.miui.extraphoto",
-      "description": "Camera document/bokeh extras. ovsky keeps it restore-only; mpierson removes it.",
+      "description": "相機文件/散景特效功能。ovsky 僅限還原；mpierson 予以移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4469,7 +4471,7 @@
     },
     {
       "package": "com.miui.face",
-      "description": "Face unlock. Face unlock stops working; ovsky keeps it restore-only.",
+      "description": "臉部解鎖。臉部解鎖功能會停止運作；ovsky 僅保留還原選項。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4483,7 +4485,7 @@
     },
     {
       "package": "com.miui.face.overlay.miui",
-      "description": "Overlay for face unlock. Face unlock may stop working.",
+      "description": "臉部解鎖的覆蓋。臉部解鎖可能會停止運作。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4492,7 +4494,7 @@
     },
     {
       "package": "com.miui.findmy",
-      "description": "Find Device (HyperOS name per ovsky). Removing disables phone locate/lock/wipe.",
+      "description": "尋找裝置（依 ovsky 所述之 HyperOS 名稱）。移除會停用手機尋找/鎖定/清除功能。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -4501,7 +4503,7 @@
     },
     {
       "package": "com.miui.fm",
-      "description": "FM Radio app.",
+      "description": "FM 收音機應用程式。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4515,7 +4517,7 @@
     },
     {
       "package": "com.miui.fmservice",
-      "description": "FM Radio service used by the FM app.",
+      "description": "FM 應用程式使用的 FM 收音機服務。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4525,7 +4527,7 @@
     },
     {
       "package": "com.miui.freeform",
-      "description": "Floating windows. Kirthan lists it safe; ovsky keeps it restore-only.",
+      "description": "懸浮視窗。Kirthan 列為安全；ovsky 僅保留還原。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4539,7 +4541,7 @@
     },
     {
       "package": "com.miui.gallery",
-      "description": "Xiaomi Gallery. Screenshot preview and edits break; install another gallery.",
+      "description": "小米相簿。截圖預覽和編輯會失效；請安裝其他相簿。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4553,7 +4555,7 @@
     },
     {
       "package": "com.miui.global.packageinstaller",
-      "description": "MIUI package installer. 15 Ultra list removes it; UAD-ng: bootloops on Xiaomi.eu ROMs.",
+      "description": "MIUI 套件安裝程式。15 Ultra 清單會移除它；UAD-ng：在 Xiaomi.eu ROM 上會導致無限開機。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -4570,7 +4572,7 @@
     },
     {
       "package": "com.miui.greenguard",
-      "description": "Security Guard antivirus engine used by the Security app's scanner.",
+      "description": "安全中心掃描器所使用的安全衛士防毒引擎。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4584,7 +4586,7 @@
     },
     {
       "package": "com.miui.guardprovider",
-      "description": "Security scan engine provider. ovsky lists it safe; UAD-ng Advanced, APK scans may fail.",
+      "description": "安全掃描引擎提供者。ovsky 列為安全；UAD-ng 進階級，APK 掃描可能會失敗。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -4597,7 +4599,7 @@
     },
     {
       "package": "com.miui.home",
-      "description": "MIUI/HyperOS launcher. Removing can break gestures/recents or boot. Never remove.",
+      "description": "MIUI/HyperOS 桌面。移除會破壞手勢/最近開啟畫面或無法開機。絕不能移除。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -4610,7 +4612,7 @@
     },
     {
       "package": "com.miui.huanji",
-      "description": "Mi Mover: phone-to-phone data transfer. Not needed after setup.",
+      "description": "小米換機：手機對手機資料傳輸。設定完成後不需要。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4625,7 +4627,7 @@
     },
     {
       "package": "com.miui.hybrid",
-      "description": "Quick Apps: ad-serving mini-app platform.",
+      "description": "快應用（Quick Apps）：提供微型應用程式的廣告平台。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4640,7 +4642,7 @@
     },
     {
       "package": "com.miui.hybrid.accessory",
-      "description": "Quick Apps accessory helper. Remove with Quick Apps.",
+      "description": "快應用配件輔助程式。請與快應用一起移除。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -4651,7 +4653,7 @@
     },
     {
       "package": "com.miui.klo.bugreport",
-      "description": "KLO crash reporter: sends system error logs to Xiaomi.",
+      "description": "KLO 當機回報器：將系統錯誤記錄傳送給小米。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -4660,7 +4662,7 @@
     },
     {
       "package": "com.miui.maintenancemode",
-      "description": "Maintenance/repair mode that hides user data during service.",
+      "description": "維修模式：在送修期間隱藏使用者資料。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4670,7 +4672,7 @@
     },
     {
       "package": "com.miui.mediaeditor",
-      "description": "Gallery photo/video editor. Gallery editing stops working.",
+      "description": "相簿相片/影片編輯器。相簿編輯功能將停止運作。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4685,7 +4687,7 @@
     },
     {
       "package": "com.miui.mediafeature",
-      "description": "Media feature bundle, mostly unused outside China.",
+      "description": "媒體功能套件，在中國大陸以外地區大多未使用。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4694,7 +4696,7 @@
     },
     {
       "package": "com.miui.mediaviewer",
-      "description": "Media viewer used by Gallery/Files to play videos.",
+      "description": "相簿/檔案管理員用來播放影片的媒體檢視器。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4705,7 +4707,7 @@
     },
     {
       "package": "com.miui.metoknlp",
-      "description": "China network location provider with analytics.",
+      "description": "具備分析功能的中國網路定位提供者。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4714,7 +4716,7 @@
     },
     {
       "package": "com.miui.micloudsync",
-      "description": "Xiaomi Cloud sync. XDA: needed to back up/restore SMS and call logs.",
+      "description": "小米雲端同步。XDA：備份/還原簡訊和通話記錄需要它。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4732,7 +4734,7 @@
     },
     {
       "package": "com.miui.miinput",
-      "description": "Gesture shortcuts (e.g. knuckle/three-finger). Those shortcuts stop working.",
+      "description": "手勢捷徑（例如關節/三指截圖）。這些捷徑將停止運作。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4741,7 +4743,7 @@
     },
     {
       "package": "com.miui.miservice",
-      "description": "Services & Feedback. mpierson: removal can break Bluetooth on some models.",
+      "description": "服務與意見反應（Services & Feedback）。mpierson：在某些機型上移除可能會破壞藍牙。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4759,7 +4761,7 @@
     },
     {
       "package": "com.miui.mishare.connectivity",
-      "description": "Mi Share/Xiaomi Share file transfer. ovsky keeps restore-only.",
+      "description": "Mi Share/小米快傳檔案傳輸。ovsky 僅保留還原。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4777,7 +4779,7 @@
     },
     {
       "package": "com.miui.misightservice",
-      "description": "MiSight diagnostics/telemetry collector.",
+      "description": "MiSight 診斷/遙測收集器。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4791,7 +4793,7 @@
     },
     {
       "package": "com.miui.misound",
-      "description": "Earphones/sound settings (equalizer, per-app volume). Sound settings may vanish.",
+      "description": "耳機/音效設定（等化器、各應用程式音量）。音效設定可能會消失。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4805,7 +4807,7 @@
     },
     {
       "package": "com.miui.miwallpaper",
-      "description": "Wallpaper engine. mpierson: removal gives black lock screen and breaks setting wallpapers.",
+      "description": "桌布引擎。mpierson：移除會導致鎖定螢幕變黑並破壞桌布設定功能。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -4819,7 +4821,7 @@
     },
     {
       "package": "com.miui.miwallpaper.config.overlay",
-      "description": "Config overlay for the wallpaper engine.",
+      "description": "桌布引擎的設定覆蓋。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4828,7 +4830,7 @@
     },
     {
       "package": "com.miui.miwallpaper.earth",
-      "description": "Super Wallpaper Earth (animated).",
+      "description": "超級桌布地球（動態）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4837,7 +4839,7 @@
     },
     {
       "package": "com.miui.miwallpaper.mars",
-      "description": "Super Wallpaper Mars (animated).",
+      "description": "超級桌布火星（動態）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4846,7 +4848,7 @@
     },
     {
       "package": "com.miui.miwallpaper.overlay",
-      "description": "Resource-only wallpaper overlay. Removed in 15 Ultra list.",
+      "description": "僅含資源的桌布覆蓋。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4860,7 +4862,7 @@
     },
     {
       "package": "com.miui.miwallpaper.overlay.customize",
-      "description": "Resource-only wallpaper overlay. Removed in 15 Ultra list.",
+      "description": "僅含資源的桌布覆蓋。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -4874,7 +4876,7 @@
     },
     {
       "package": "com.miui.miwallpaper.overlay.lundun",
-      "description": "Resource-only wallpaper overlay.",
+      "description": "僅含資源的桌布覆蓋。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4883,7 +4885,7 @@
     },
     {
       "package": "com.miui.miwallpaper.overlay.qr",
-      "description": "Resource-only lock wallpaper path overlay.",
+      "description": "僅含資源的鎖定桌布路徑覆蓋。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4892,7 +4894,7 @@
     },
     {
       "package": "com.miui.miwallpaper.telcel.overlay",
-      "description": "Telcel carrier wallpaper overlay.",
+      "description": "Telcel 電信商桌布覆蓋。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -4901,7 +4903,7 @@
     },
     {
       "package": "com.miui.msa.global",
-      "description": "MSA, Xiaomi's system ad engine. Every source recommends removing or revoking it.",
+      "description": "MSA，小米的系統廣告引擎。所有來源都建議移除或撤銷其權限。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -4921,7 +4923,7 @@
     },
     {
       "package": "com.miui.newhome",
-      "description": "China content feed service.",
+      "description": "中國內容摘要服務。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -4930,7 +4932,7 @@
     },
     {
       "package": "com.miui.newmidrive",
-      "description": "Mi Drive (China) cloud file sync; runs in background.",
+      "description": "小米雲端硬碟（中國）雲端檔案同步；在背景執行。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4944,7 +4946,7 @@
     },
     {
       "package": "com.miui.nextpay",
-      "description": "China smart-card/transit pay extension.",
+      "description": "中國智慧卡/交通卡支付延伸功能。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4959,7 +4961,7 @@
     },
     {
       "package": "com.miui.notes",
-      "description": "Xiaomi Notes. Back up notes before removing.",
+      "description": "小米筆記。移除前請先備份筆記。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -4974,7 +4976,7 @@
     },
     {
       "package": "com.miui.notification",
-      "description": "MIUI notification settings UI. mpierson lists safe; UAD-ng Expert.",
+      "description": "MIUI 通知設定 UI。mpierson 列為安全；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -4988,7 +4990,7 @@
     },
     {
       "package": "com.miui.otaprovision",
-      "description": "China OTA provisioning helper with analytics.",
+      "description": "帶有分析功能的中國版 OTA 配置輔助程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -4997,7 +4999,7 @@
     },
     {
       "package": "com.miui.packageinstaller",
-      "description": "MIUI package installer on China ROMs. UAD-ng reports bootloops there when removed.",
+      "description": "中國版 ROM 上的 MIUI 套件安裝程式。UAD-ng 回報移除會導致無限開機。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5007,7 +5009,7 @@
     },
     {
       "package": "com.miui.permission",
-      "description": "MIUI permission component. ovsky keeps it restore-only.",
+      "description": "MIUI 權限元件。ovsky 僅保留還原。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5017,7 +5019,7 @@
     },
     {
       "package": "com.miui.permissioncontroller.overlay",
-      "description": "MIUI overlay for the permission controller. UAD-ng Unsafe.",
+      "description": "權限控制工具的 MIUI 覆蓋。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5027,7 +5029,7 @@
     },
     {
       "package": "com.miui.personalassistant",
-      "description": "App Vault widget pane on some builds. ovsky rates risky; UAD-ng safe.",
+      "description": "部分版本上的負一屏/App Vault 小工具頁面。ovsky 評為具風險；UAD-ng 認為安全。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5042,7 +5044,7 @@
     },
     {
       "package": "com.miui.phone.carriers.customized.overlay",
-      "description": "Carrier VoWiFi/VoLTE overlay. UAD-ng says unused, but it touches telephony.",
+      "description": "電信商 VoWiFi/VoLTE 覆蓋。UAD-ng 表示未使用，但它牽涉到通話堆疊。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -5051,7 +5053,7 @@
     },
     {
       "package": "com.miui.phone.carriers.overlay",
-      "description": "Carrier network-type overlay. UAD-ng says unused.",
+      "description": "電信商網路類型覆蓋。UAD-ng 表示未使用。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -5060,7 +5062,7 @@
     },
     {
       "package": "com.miui.phone.carriers.overlay.h3g",
-      "description": "Three (H3G) carrier network preset. Unused on other carriers.",
+      "description": "Three (H3G) 電信商網路預設值。在其他電信商上未使用。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -5076,7 +5078,7 @@
     },
     {
       "package": "com.miui.phone.carriers.overlay.vodafone",
-      "description": "Vodafone carrier network preset. Unused on other carriers.",
+      "description": "Vodafone 電信商網路預設值。在其他電信商上未使用。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -5092,7 +5094,7 @@
     },
     {
       "package": "com.miui.phrase",
-      "description": "Frequent Phrases in the keyboard/paste menu. ovsky keeps restore-only.",
+      "description": "鍵盤/貼上選單中的常用詞組。ovsky 僅保留還原。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5110,7 +5112,7 @@
     },
     {
       "package": "com.miui.player",
-      "description": "Mi Music player (ads). Install another music player first.",
+      "description": "小米音樂播放器（含廣告）。請先安裝其他音樂播放器。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5129,7 +5131,7 @@
     },
     {
       "package": "com.miui.powerinsight",
-      "description": "MIUI power insight/battery stats helper (ovsky phase 1).",
+      "description": "MIUI 電源洞察/電池統計輔助工具（ovsky 第一階段）。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5138,7 +5140,7 @@
     },
     {
       "package": "com.miui.powerkeeper",
-      "description": "MIUI battery and performance manager. Keep; battery settings break.",
+      "description": "MIUI 電池與效能管理員。請保留，否則電池設定會失效。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5148,7 +5150,7 @@
     },
     {
       "package": "com.miui.privacycomputing",
-      "description": "MIUI privacy computing component (China).",
+      "description": "MIUI 隱私計算元件（中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5157,7 +5159,7 @@
     },
     {
       "package": "com.miui.providers.weather",
-      "description": "Weather data provider for Mi Weather and its widgets.",
+      "description": "小米天氣及其小工具的天氣資料提供者。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5166,7 +5168,7 @@
     },
     {
       "package": "com.miui.qr",
-      "description": "QR scanner used by camera/control center shortcuts.",
+      "description": "相機/控制中心捷徑所使用的 QR 掃描器。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5176,7 +5178,7 @@
     },
     {
       "package": "com.miui.roaming",
-      "description": "Mi Roaming (alternate name). Remove only if you don't buy roaming data.",
+      "description": "小米漫遊（替代名稱）。僅在你未購買漫遊資料時移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5185,7 +5187,7 @@
     },
     {
       "package": "com.miui.rom",
-      "description": "Core MIUI package. Listed by KernelTruth but UAD-ng says never remove.",
+      "description": "核心 MIUI 套件。KernelTruth 列出，但 UAD-ng 表示絕不能移除。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -5199,7 +5201,7 @@
     },
     {
       "package": "com.miui.safetycenter.config.overlay",
-      "description": "Config overlay for the safety center. UAD-ng Expert.",
+      "description": "安全中心設定覆蓋。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5208,7 +5210,7 @@
     },
     {
       "package": "com.miui.safetycenter.res.overlay",
-      "description": "Resource overlay for the safety center. UAD-ng Expert.",
+      "description": "安全中心資源覆蓋。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5217,7 +5219,7 @@
     },
     {
       "package": "com.miui.scanner",
-      "description": "Xiaomi Scanner (legacy name). ovsky rates it risky.",
+      "description": "小米掃描器（舊名稱）。ovsky 評為具風險。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5226,7 +5228,7 @@
     },
     {
       "package": "com.miui.screenrecorder",
-      "description": "Screen recorder app.",
+      "description": "螢幕錄影應用程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5236,7 +5238,7 @@
     },
     {
       "package": "com.miui.screenshot",
-      "description": "Screenshot service. Screenshots stop working.",
+      "description": "截圖服務。螢幕截圖功能將停止運作。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5245,7 +5247,7 @@
     },
     {
       "package": "com.miui.securityadd",
-      "description": "Security add-on. ovsky lists safe, but UAD-ng warns of bootloops below MIUI 13.",
+      "description": "安全外掛程式。ovsky 列為安全，但 UAD-ng 警告在 MIUI 13 以下版本會無限開機。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -5260,7 +5262,7 @@
     },
     {
       "package": "com.miui.securitycenter",
-      "description": "Security app (permissions, cleaner, battery). UAD-ng: likely bootloop on older MIUI. Keep.",
+      "description": "安全中心應用程式（權限、清理、電池）。UAD-ng：在舊版 MIUI 上可能會無限開機。請保留。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5271,7 +5273,7 @@
     },
     {
       "package": "com.miui.securitycenter.securitycenter_phone_overlay.config.overlay",
-      "description": "Security app config overlay.",
+      "description": "安全中心設定覆蓋。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -5280,7 +5282,7 @@
     },
     {
       "package": "com.miui.securitycore",
-      "description": "Security core (Dual Apps, Second Space). KernelTruth lists it; UAD-ng warns of bootloops.",
+      "description": "安全核心（應用分身、手機分身）。KernelTruth 列出；UAD-ng 警告會無限開機。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -5294,7 +5296,7 @@
     },
     {
       "package": "com.miui.securityinputmethod",
-      "description": "Secure keyboard for password fields. Normal keyboard is used instead.",
+      "description": "密碼欄位的安全鍵盤。改用一般鍵盤。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5303,7 +5305,7 @@
     },
     {
       "package": "com.miui.settings.overlay.miui",
-      "description": "MIUI Settings overlay. XDA users linked removal to a broken call-record button.",
+      "description": "MIUI 設定覆蓋。XDA 用戶將移除動作與損壞的通話錄音按鈕連結在一起。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -5315,7 +5317,7 @@
     },
     {
       "package": "com.miui.settings.rro.device.config.overlay",
-      "description": "Device config overlay for Settings. UAD-ng Unsafe.",
+      "description": "設定的裝置設定覆蓋。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5325,7 +5327,7 @@
     },
     {
       "package": "com.miui.settings.rro.device.hide.statusbar.overlay",
-      "description": "Status bar resources overlay. Removed in 15 Ultra list.",
+      "description": "狀態列資源覆蓋。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -5339,7 +5341,7 @@
     },
     {
       "package": "com.miui.settings.rro.device.systemui.overlay",
-      "description": "Device SystemUI overlay for Settings. UAD-ng Unsafe.",
+      "description": "設定的裝置 SystemUI 覆蓋。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5349,7 +5351,7 @@
     },
     {
       "package": "com.miui.settings.rro.device.type.overlay",
-      "description": "Device-type image overlay for Settings. Removed in 15 Ultra list.",
+      "description": "設定的裝置類型圖片覆蓋。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -5363,7 +5365,7 @@
     },
     {
       "package": "com.miui.smsextra",
-      "description": "Helper for Xiaomi Messages. Remove only if you use another SMS app.",
+      "description": "小米訊息的輔助程式。僅在你使用其他簡訊應用程式時移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5373,7 +5375,7 @@
     },
     {
       "package": "com.miui.spock",
-      "description": "Background analytics that sends device data to Xiaomi.",
+      "description": "將裝置資料傳送給小米的背景分析工具。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5382,7 +5384,7 @@
     },
     {
       "package": "com.miui.sysopt",
-      "description": "Debug/optimization helper with no user-facing features.",
+      "description": "沒有面向使用者功能的除錯/最佳化輔助程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5391,7 +5393,7 @@
     },
     {
       "package": "com.miui.system",
-      "description": "Core MIUI system package. Listed by KernelTruth but UAD-ng says never remove.",
+      "description": "核心 MIUI 系統套件。KernelTruth 列出，但 UAD-ng 表示絕不能移除。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -5405,7 +5407,7 @@
     },
     {
       "package": "com.miui.system.overlay",
-      "description": "Resource-only MIUI system overlay.",
+      "description": "僅含資源的 MIUI 系統覆蓋。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -5414,7 +5416,7 @@
     },
     {
       "package": "com.miui.systemAdSolution",
-      "description": "System ad engine that profiles usage for targeted ads.",
+      "description": "分析使用情況以投放目標廣告的系統廣告引擎。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -5429,7 +5431,7 @@
     },
     {
       "package": "com.miui.systemui",
-      "description": "System UI — critical system component",
+      "description": "系統 UI — 關鍵系統元件",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5438,7 +5440,7 @@
     },
     {
       "package": "com.miui.systemui.carriers.overlay",
-      "description": "Carrier overlay for SystemUI. KernelTruth lists it; UAD-ng: you lose LTE.",
+      "description": "SystemUI 的電信商覆蓋。KernelTruth 列出；UAD-ng：會失去 LTE。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -5452,7 +5454,7 @@
     },
     {
       "package": "com.miui.systemui.devices.overlay",
-      "description": "SystemUI screen-edge/cutout padding overlay. Status bar layout may shift.",
+      "description": "SystemUI 螢幕邊緣/開孔邊距覆蓋。狀態列版面配置可能會位移。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -5461,7 +5463,7 @@
     },
     {
       "package": "com.miui.systemui.overlay.devices.android",
-      "description": "SystemUI device overlay (doze/AOD config). UAD-ng Expert.",
+      "description": "SystemUI 裝置覆蓋（Doze/AOD 設定）。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -5470,7 +5472,7 @@
     },
     {
       "package": "com.miui.themestore",
-      "description": "Themes store (alternate name). ovsky rates it risky.",
+      "description": "主題商店（替代名稱）。ovsky 評為具風險。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -5479,7 +5481,7 @@
     },
     {
       "package": "com.miui.thirdappassistant",
-      "description": "Third-party app problem reporter.",
+      "description": "第三方應用程式問題回報器。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5494,7 +5496,7 @@
     },
     {
       "package": "com.miui.touchassistant",
-      "description": "Quick Ball floating shortcuts. Most lists remove it; XDA user notes it's handy on big screens.",
+      "description": "懸浮球捷徑。多數清單會移除它；XDA 用戶指出在大螢幕上很實用。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5513,7 +5515,7 @@
     },
     {
       "package": "com.miui.translate",
-      "description": "MIUI Translator",
+      "description": "小米翻譯",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5522,7 +5524,7 @@
     },
     {
       "package": "com.miui.translation.kingsoft",
-      "description": "Kingsoft translation engine (China).",
+      "description": "金山翻譯引擎（中國）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5537,7 +5539,7 @@
     },
     {
       "package": "com.miui.translation.xmcloud",
-      "description": "Xiaomi cloud translation engine. Doesn't affect Google translation.",
+      "description": "小米雲端翻譯引擎。不影響 Google 翻譯。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5552,7 +5554,7 @@
     },
     {
       "package": "com.miui.translation.youdao",
-      "description": "Youdao translation engine (China).",
+      "description": "有道翻譯引擎（中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5562,7 +5564,7 @@
     },
     {
       "package": "com.miui.translationservice",
-      "description": "Xiaomi translation service (subtitles/screen translate).",
+      "description": "小米翻譯服務（字幕/螢幕翻譯）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5578,7 +5580,7 @@
     },
     {
       "package": "com.miui.tsmclient",
-      "description": "Smart cards client (transit/NFC cards), China-focused per UAD-ng.",
+      "description": "智慧卡用戶端（交通卡/NFC 卡），據 UAD-ng 指出以中國大陸為重心。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5593,7 +5595,7 @@
     },
     {
       "package": "com.miui.tv.analytics",
-      "description": "Analytics component.",
+      "description": "分析元件。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5602,7 +5604,7 @@
     },
     {
       "package": "com.miui.uireporter",
-      "description": "UI usage reporter (telemetry).",
+      "description": "UI 使用情形回報器（遙測）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5612,7 +5614,7 @@
     },
     {
       "package": "com.miui.userguide",
-      "description": "Xiaomi user guide/tips app.",
+      "description": "小米使用指南/提示應用程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5623,7 +5625,7 @@
     },
     {
       "package": "com.miui.video",
-      "description": "Mi Video (alternate name) with ads and tracking.",
+      "description": "小米影片（替代名稱）含廣告和追蹤。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5632,7 +5634,7 @@
     },
     {
       "package": "com.miui.videoplayer",
-      "description": "Mi Video player with ads. Install another video player first.",
+      "description": "含廣告的小米影片播放器。請先安裝其他影片播放器。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5651,7 +5653,7 @@
     },
     {
       "package": "com.miui.videoplayer.overlay",
-      "description": "Overlay for Mi Video. Remove with Mi Video.",
+      "description": "小米影片的覆蓋。請與小米影片一起移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5660,7 +5662,7 @@
     },
     {
       "package": "com.miui.vipservice",
-      "description": "\"My services\" customer support hub.",
+      "description": "「我的服務」客戶支援中樞。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5669,7 +5671,7 @@
     },
     {
       "package": "com.miui.virtualsim",
-      "description": "Mi Roaming virtual SIM data. ovsky keeps restore-only.",
+      "description": "小米漫遊虛擬 SIM 卡資料。ovsky 僅保留還原。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5679,7 +5681,7 @@
     },
     {
       "package": "com.miui.voiceassist",
-      "description": "XiaoAI Chinese voice assistant.",
+      "description": "小愛同學中國語音助理。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5693,7 +5695,7 @@
     },
     {
       "package": "com.miui.voiceassistProxy",
-      "description": "Voice assistant proxy (ovsky hidden-services phase).",
+      "description": "語音助理代理程式（ovsky 隱藏服務階段）。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5702,7 +5704,7 @@
     },
     {
       "package": "com.miui.voiceassistoverlay",
-      "description": "Overlay UI for the Xiaomi voice assistant. Assistant pop-up stops showing.",
+      "description": "小米語音助理的覆蓋 UI。助理快顯視窗將停止顯示。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5717,7 +5719,7 @@
     },
     {
       "package": "com.miui.voicetrigger",
-      "description": "Voice wake-word for Xiaomi assistant.",
+      "description": "小米助理的語音喚醒功能。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5731,7 +5733,7 @@
     },
     {
       "package": "com.miui.vpnsdkmanager",
-      "description": "Xiaomi VPN SDK manager (game acceleration). Doesn't affect normal VPN apps.",
+      "description": "小米 VPN SDK 管理員（遊戲加速）。不影響一般的 VPN 應用程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5740,7 +5742,7 @@
     },
     {
       "package": "com.miui.vsimcore",
-      "description": "Virtual SIM core (Mi Roaming). ovsky keeps restore-only.",
+      "description": "虛擬 SIM 卡核心（小米漫遊）。ovsky 僅保留還原。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5758,7 +5760,7 @@
     },
     {
       "package": "com.miui.wallpaper",
-      "description": "MIUI Wallpaper Carousel",
+      "description": "MIUI 桌布輪播",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5767,7 +5769,7 @@
     },
     {
       "package": "com.miui.wallpaper.overlay",
-      "description": "Resource-only wallpaper overlay. Removed in 15 Ultra list.",
+      "description": "僅含資源的桌布覆蓋。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5783,7 +5785,7 @@
     },
     {
       "package": "com.miui.wallpaper.overlay.customize",
-      "description": "Resource-only wallpaper overlay. Removed in 15 Ultra list.",
+      "description": "僅含資源的桌布覆蓋。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -5799,7 +5801,7 @@
     },
     {
       "package": "com.miui.weather",
-      "description": "MIUI Weather",
+      "description": "MIUI 天氣",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5808,7 +5810,7 @@
     },
     {
       "package": "com.miui.weather2",
-      "description": "Xiaomi Weather app. Weather widgets stop working.",
+      "description": "小米天氣應用程式。天氣小工具將停止運作。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5823,7 +5825,7 @@
     },
     {
       "package": "com.miui.wmsvc",
-      "description": "WMService: background service with network/location access. No user feature.",
+      "description": "WMService：具備網路/定位存取權限的背景服務。無使用者功能。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -5839,7 +5841,7 @@
     },
     {
       "package": "com.miui.yellowpage",
-      "description": "Yellow Pages business caller-ID directory.",
+      "description": "黃頁商業來電顯示目錄。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5858,7 +5860,7 @@
     },
     {
       "package": "com.miui.zman",
-      "description": "Secure sharing: strips location/metadata when sharing from Gallery.",
+      "description": "安全共用：從相簿共用時會剝除位置/後設資料。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -5867,7 +5869,7 @@
     },
     {
       "package": "com.miuix.editor",
-      "description": "Text action helper for Frequent Phrases.",
+      "description": "常用詞組的文字動作輔助程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -5876,7 +5878,7 @@
     },
     {
       "package": "com.mobiletools.systemhelper",
-      "description": "Hidden system helper (dual SIM/app info tools).",
+      "description": "隱藏系統輔助程式（雙卡/應用程式資訊工具）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -5890,7 +5892,7 @@
     },
     {
       "package": "com.moomoo.trade",
-      "description": "moomoo trading app preload.",
+      "description": "moomoo 交易應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5899,7 +5901,7 @@
     },
     {
       "package": "com.netflix.mediaclient",
-      "description": "Netflix app preload.",
+      "description": "Netflix 應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -5913,7 +5915,7 @@
     },
     {
       "package": "com.netflix.partner.activation",
-      "description": "Netflix partner activation stub.",
+      "description": "Netflix 合作夥伴啟用捷徑。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -5928,7 +5930,7 @@
     },
     {
       "package": "com.nf.snake",
-      "description": "Snake preloaded game.",
+      "description": "貪吃蛇預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5938,7 +5940,7 @@
     },
     {
       "package": "com.nuance.swype.input",
-      "description": "Swype keyboard. Install another keyboard first.",
+      "description": "Swype 鍵盤。請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -5948,7 +5950,7 @@
     },
     {
       "package": "com.oakever.tiletrip",
-      "description": "Tile Trip preloaded game.",
+      "description": "Tile Trip 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5957,7 +5959,7 @@
     },
     {
       "package": "com.opera.browser",
-      "description": "Opera browser preload.",
+      "description": "Opera 瀏覽器預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5966,7 +5968,7 @@
     },
     {
       "package": "com.opera.max.oem",
-      "description": "Opera Max data saver (discontinued).",
+      "description": "Opera Max 資料節省程式（已停用）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5976,7 +5978,7 @@
     },
     {
       "package": "com.opera.mini.native",
-      "description": "Opera Mini preload",
+      "description": "Opera Mini 預載",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5985,7 +5987,7 @@
     },
     {
       "package": "com.opera.preinstall",
-      "description": "Opera preinstall tracking data.",
+      "description": "Opera 預先安裝追蹤資料。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -5995,7 +5997,7 @@
     },
     {
       "package": "com.orange.aura.oobe",
-      "description": "Orange carrier setup/app recommender.",
+      "description": "Orange 電信商設定/應用程式推薦工具。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6009,7 +6011,7 @@
     },
     {
       "package": "com.orange.update",
-      "description": "Orange carrier app updater.",
+      "description": "Orange 電信商應用程式更新程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6023,7 +6025,7 @@
     },
     {
       "package": "com.ordinaryjoy.woodblast",
-      "description": "Wood Blast preloaded game.",
+      "description": "Wood Blast 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6032,7 +6034,7 @@
     },
     {
       "package": "com.plarium.raidlegends",
-      "description": "RAID: Shadow Legends preload.",
+      "description": "RAID: Shadow Legends 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6041,7 +6043,7 @@
     },
     {
       "package": "com.preff.kb.xm",
-      "description": "Emoji & Font keyboard for Xiaomi. Install another keyboard first.",
+      "description": "適用於小米的 Emoji 與字型鍵盤。請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -6050,7 +6052,7 @@
     },
     {
       "package": "com.qti.confuridialer",
-      "description": "Hidden Qualcomm SIP conference dialer.",
+      "description": "隱藏的高通 SIP 會議撥號器。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6063,7 +6065,7 @@
     },
     {
       "package": "com.qti.dcf",
-      "description": "Qualcomm Bluetooth content-sharing helper. Removed in 15 Ultra list.",
+      "description": "高通藍牙內容共用輔助程式。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6077,7 +6079,7 @@
     },
     {
       "package": "com.qti.diagservices",
-      "description": "Qualcomm diagnostics service that starts on USB connection.",
+      "description": "在連接 USB 時啟動的高通診斷服務。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6090,7 +6092,7 @@
     },
     {
       "package": "com.qti.dpmserviceapp",
-      "description": "Qualcomm data power manager for the modem. UAD-ng Expert.",
+      "description": "數據機的高通資料電源管理員。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -6103,7 +6105,7 @@
     },
     {
       "package": "com.qti.qcc",
-      "description": "Qualcomm logging/test framework. Removed in 15 Ultra list.",
+      "description": "高通記錄/測試框架。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6118,7 +6120,7 @@
     },
     {
       "package": "com.qti.qualcomm.datastatusnotification",
-      "description": "Mobile data limit notifications. UAD-ng Expert.",
+      "description": "行動數據用量上限通知。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -6131,7 +6133,7 @@
     },
     {
       "package": "com.qti.qualcomm.deviceinfo",
-      "description": "Hidden Qualcomm device info screen. Settings info unaffected.",
+      "description": "隱藏的高通裝置資訊畫面。設定中的裝置資訊不受影響。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6145,7 +6147,7 @@
     },
     {
       "package": "com.qti.service.colorservice",
-      "description": "Qualcomm display color service. Rarely used.",
+      "description": "高通顯示色彩服務。很少使用。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6158,7 +6160,7 @@
     },
     {
       "package": "com.qti.slaservice",
-      "description": "Qualcomm network quality (SLA) analyzer.",
+      "description": "高通網路品質（SLA）分析器。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -6167,7 +6169,7 @@
     },
     {
       "package": "com.qti.snapdragon.qcdm_ff",
-      "description": "Qualcomm diagnostic component listed only by KernelTruth.",
+      "description": "僅由 KernelTruth 列出的高通診斷元件。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6179,7 +6181,7 @@
     },
     {
       "package": "com.qti.xdivert",
-      "description": "Smart call divert between SIMs. Remove if you don't use call diverting.",
+      "description": "SIM 卡之間的智慧通話轉接。如果不使用通話轉接功能可移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6192,7 +6194,7 @@
     },
     {
       "package": "com.qualcomm.atfwd",
-      "description": "Forwards AT modem commands. Removed in 15 Ultra list; low risk per UAD-ng.",
+      "description": "轉發 AT 數據機指令。已在 15 Ultra 清單中移除；根據 UAD-ng 風險低。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6208,7 +6210,7 @@
     },
     {
       "package": "com.qualcomm.atfwd2",
-      "description": "Second AT command forwarder. Removed in 15 Ultra list.",
+      "description": "第二個 AT 指令轉發器。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6222,7 +6224,7 @@
     },
     {
       "package": "com.qualcomm.qti.autoregistration",
-      "description": "Warranty auto-registration that has sent device IDs in clear text.",
+      "description": "曾以純文字傳送裝置 ID 的保固自動註冊功能。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6235,7 +6237,7 @@
     },
     {
       "package": "com.qualcomm.qti.biometrics.fingerprint.qfsfactorytest",
-      "description": "Qualcomm fingerprint factory test (15 Ultra list).",
+      "description": "高通指紋原廠測試（15 Ultra 清單）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6248,7 +6250,7 @@
     },
     {
       "package": "com.qualcomm.qti.callfeaturessetting",
-      "description": "Hidden call forwarding/waiting settings.",
+      "description": "隱藏的通話轉接/插撥設定。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6261,7 +6263,7 @@
     },
     {
       "package": "com.qualcomm.qti.confdialer",
-      "description": "LTE conference call dialer.",
+      "description": "LTE 會議通話撥號器。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6274,7 +6276,7 @@
     },
     {
       "package": "com.qualcomm.qti.improvetouch.service",
-      "description": "Small touch-tuning service. Developer use.",
+      "description": "小型觸控調校服務。開發人員使用。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -6283,7 +6285,7 @@
     },
     {
       "package": "com.qualcomm.qti.performancemode",
-      "description": "Hidden Qualcomm performance-mode screen.",
+      "description": "隱藏的高通效能模式畫面。",
       "category": "system",
       "risk": "safe",
       "sources": [
@@ -6292,7 +6294,7 @@
     },
     {
       "package": "com.qualcomm.qti.poweroffalarm",
-      "description": "Lets alarms power on the phone. Alarms may fail when off (UAD-ng Expert).",
+      "description": "允許鬧鐘在關機狀態下喚醒手機。關機時鬧鐘可能會失效（UAD-ng 專家級）。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -6305,7 +6307,7 @@
     },
     {
       "package": "com.qualcomm.qti.qccauthmgr",
-      "description": "Qualcomm telemetry key manager.",
+      "description": "高通遙測金鑰管理員。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6318,7 +6320,7 @@
     },
     {
       "package": "com.qualcomm.qti.qdma",
-      "description": "Qualcomm device management and analytics.",
+      "description": "高通裝置管理與分析。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6331,7 +6333,7 @@
     },
     {
       "package": "com.qualcomm.qti.qms.service.connectionsecurity",
-      "description": "Qualcomm telemetry service.",
+      "description": "高通遙測服務。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6345,7 +6347,7 @@
     },
     {
       "package": "com.qualcomm.qti.qms.service.trustzoneaccess",
-      "description": "Qualcomm quality management logging service.",
+      "description": "高通品質管理記錄服務。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6359,7 +6361,7 @@
     },
     {
       "package": "com.qualcomm.qti.remoteSimlockAuth",
-      "description": "Carrier remote SIM-lock authentication.",
+      "description": "電信商遠端 SIM 卡鎖定驗證。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6375,7 +6377,7 @@
     },
     {
       "package": "com.qualcomm.qti.ridemodeaudio",
-      "description": "Hidden driving mode audio recorder.",
+      "description": "隱藏的駕駛模式錄音器。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6391,7 +6393,7 @@
     },
     {
       "package": "com.qualcomm.qti.server.qtiwifi",
-      "description": "Qualcomm Wi-Fi analytics/OEM service. Removed in 15 Ultra list.",
+      "description": "高通 Wi-Fi 分析/OEM 服務。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6405,7 +6407,7 @@
     },
     {
       "package": "com.qualcomm.qti.services.systemhelper",
-      "description": "Qualcomm system helper service. UAD-ng Expert.",
+      "description": "高通系統輔助服務。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -6417,7 +6419,7 @@
     },
     {
       "package": "com.qualcomm.qti.uim",
-      "description": "Remote SIM lock service. Removed in 15 Ultra list.",
+      "description": "遠端 SIM 鎖定服務。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6433,7 +6435,7 @@
     },
     {
       "package": "com.qualcomm.qti.uimGbaApp",
-      "description": "UIM/GBA auth for R-UIM cards. Removed in 15 Ultra list.",
+      "description": "適用於 R-UIM 卡的 UIM/GBA 驗證。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6447,7 +6449,7 @@
     },
     {
       "package": "com.qualcomm.qti.xrcb",
-      "description": "Radio broadcast receiver (alerts). Removed in 15 Ultra list.",
+      "description": "廣播接收器（警報）。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6463,7 +6465,7 @@
     },
     {
       "package": "com.qualcomm.qti.xrvd.service",
-      "description": "XRVD test service for developers.",
+      "description": "供開發人員使用的 XRVD 測試服務。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6479,7 +6481,7 @@
     },
     {
       "package": "com.qualcomm.timeservice",
-      "description": "Keeps time offset across reboots. UAD-ng Expert; clock may reset.",
+      "description": "保持重新開機前後的時間差。UAD-ng 專家級；時鐘可能會重設。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -6492,7 +6494,7 @@
     },
     {
       "package": "com.qualcomm.uimremoteclient",
-      "description": "Remote UIM client for R-UIM cards.",
+      "description": "R-UIM 卡的遠端 UIM 客戶端。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6506,7 +6508,7 @@
     },
     {
       "package": "com.qualcomm.uimremoteserver",
-      "description": "Remote UIM server for R-UIM cards.",
+      "description": "R-UIM 卡的遠端 UIM 伺服器。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6521,7 +6523,7 @@
     },
     {
       "package": "com.qualcomm.wfd.service",
-      "description": "Wi-Fi Display (Miracast) service. Screen casting to TVs may stop.",
+      "description": "Wi-Fi 顯示（Miracast）服務。投影到電視螢幕的功能可能會停止。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -6535,7 +6537,7 @@
     },
     {
       "package": "com.quicinc.voice.activation",
-      "description": "Qualcomm always-on voice detection.",
+      "description": "高通隨時待命語音偵測。",
       "category": "system",
       "risk": "safe",
       "os": [
@@ -6548,7 +6550,7 @@
     },
     {
       "package": "com.sfr.android.sfrjeux",
-      "description": "SFR carrier games app.",
+      "description": "SFR 電信商遊戲應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6562,7 +6564,7 @@
     },
     {
       "package": "com.singtel.mysingtel",
-      "description": "Singtel carrier app preload.",
+      "description": "Singtel 電信商應用程式預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6571,7 +6573,7 @@
     },
     {
       "package": "com.skype.raider",
-      "description": "Skype preload.",
+      "description": "Skype 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6581,7 +6583,7 @@
     },
     {
       "package": "com.sohu.inputmethod.sogou.xiaomi",
-      "description": "Sogou keyboard (China). Install another keyboard first.",
+      "description": "搜狗輸入法（中國）。移除前請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -6596,7 +6598,7 @@
     },
     {
       "package": "com.soulcompany.bubbleshooter.relaxing",
-      "description": "Bubble shooter preloaded game.",
+      "description": "泡泡龍預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6605,7 +6607,7 @@
     },
     {
       "package": "com.spotify.music",
-      "description": "Spotify preload.",
+      "description": "Spotify 預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6619,7 +6621,7 @@
     },
     {
       "package": "com.ss.android.ugc.trill",
-      "description": "TikTok preload (regional package).",
+      "description": "TikTok 預載（區域套件）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6631,7 +6633,7 @@
     },
     {
       "package": "com.sukhavati.gotoplaying.bubble.BubbleShooter.mint",
-      "description": "Bubble Shooter preloaded game.",
+      "description": "泡泡龍預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6645,7 +6647,7 @@
     },
     {
       "package": "com.tencent.soter.soterserver",
-      "description": "Tencent Soter biometric auth for WeChat/Chinese apps. Fingerprint pay there may break.",
+      "description": "微信/中國應用程式使用的騰訊 Soter 生物辨識驗證。該處的指紋支付可能會失效。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -6663,7 +6665,7 @@
     },
     {
       "package": "com.touchtype.swiftkey",
-      "description": "SwiftKey keyboard. Install another keyboard first.",
+      "description": "SwiftKey 鍵盤。請先安裝其他鍵盤。",
       "category": "bloatware",
       "risk": "caution",
       "sources": [
@@ -6673,7 +6675,7 @@
     },
     {
       "package": "com.tripadvisor.tripadvisor",
-      "description": "Tripadvisor preload.",
+      "description": "Tripadvisor 預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6683,7 +6685,7 @@
     },
     {
       "package": "com.tripledot.solitaire",
-      "description": "Solitaire preloaded game.",
+      "description": "接龍預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6693,7 +6695,7 @@
     },
     {
       "package": "com.truecaller",
-      "description": "Truecaller preload",
+      "description": "Truecaller 預載",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6702,7 +6704,7 @@
     },
     {
       "package": "com.trustonic.tuiservice",
-      "description": "Trustonic trusted UI for secure PIN/payment entry. UAD-ng Expert.",
+      "description": "用於安全 PIN 碼/付款輸入的 Trustonic 安全 UI。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -6712,7 +6714,7 @@
     },
     {
       "package": "com.unionpay.tsmservice.mi",
-      "description": "UnionPay card service (China only).",
+      "description": "銀聯卡服務（僅限中國大陸）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6727,7 +6729,7 @@
     },
     {
       "package": "com.vitastudio.mahjong",
-      "description": "Mahjong preloaded game.",
+      "description": "麻將預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6736,7 +6738,7 @@
     },
     {
       "package": "com.wapi.wapicertmanage",
-      "description": "WAPI Wi-Fi certificate manager (Chinese Wi-Fi standard).",
+      "description": "WAPI Wi-Fi 憑證管理員（中國 Wi-Fi 標準）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6750,7 +6752,7 @@
     },
     {
       "package": "com.wdstechnology.android.kryten",
-      "description": "Hidden OTA access-point config. UAD-ng says updates still work without it.",
+      "description": "隱藏的 OTA 存取點設定。UAD-ng 表示沒有它更新照常運作。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6766,7 +6768,7 @@
     },
     {
       "package": "com.wingtech.standard",
-      "description": "Wingtech (ODM) hardware test app.",
+      "description": "聞泰（ODM）硬體測試應用程式。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -6775,7 +6777,7 @@
     },
     {
       "package": "com.wps.moffice_eng",
-      "description": "WPS Office preload",
+      "description": "WPS Office 預載",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6784,7 +6786,7 @@
     },
     {
       "package": "com.wt.secret_code_manager",
-      "description": "Hidden dialer secret-code handler (ODM logging).",
+      "description": "隱藏的撥號盤密碼處理常式（ODM 記錄）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -6793,7 +6795,7 @@
     },
     {
       "package": "com.wt.version_query",
-      "description": "Hidden version-query tool opened by secret codes.",
+      "description": "透過密碼開啟的隱藏版本查詢工具。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -6802,7 +6804,7 @@
     },
     {
       "package": "com.xiaomi.NetworkBoost",
-      "description": "Network acceleration service. Reported as placebo; low impact.",
+      "description": "網路加速服務。據回報為安慰劑效果；影響低。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -6811,7 +6813,7 @@
     },
     {
       "package": "com.xiaomi.ab",
-      "description": "Mi Store China login/payment components.",
+      "description": "小米商城中國登入/付款元件。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6822,7 +6824,7 @@
     },
     {
       "package": "com.xiaomi.account",
-      "description": "Xiaomi Account. UAD-ng: sign out and unbind first or you can be locked out. ovsky: risky.",
+      "description": "小米帳號。UAD-ng：請先登出並解除綁定，否則可能會被鎖死。ovsky：具風險。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -6833,7 +6835,7 @@
     },
     {
       "package": "com.xiaomi.aiasst.service",
-      "description": "AI call assistant (screening/answering). Off by default.",
+      "description": "AI 通話助理（篩選/接聽）。預設為關閉。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6848,7 +6850,7 @@
     },
     {
       "package": "com.xiaomi.aiasst.vision",
-      "description": "AI assistant vision helper. Remove with AI call assistant.",
+      "description": "AI 助理視覺輔助程式。請與 AI 通話助理一起移除。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6863,7 +6865,7 @@
     },
     {
       "package": "com.xiaomi.aicr",
-      "description": "Xiaomi AI engine. ovsky hidden-services phase; UAD-ng warns it may break setting wallpapers.",
+      "description": "小米 AI 引擎。ovsky 隱藏服務階段；UAD-ng 警告這可能會破壞桌布設定。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -6873,7 +6875,7 @@
     },
     {
       "package": "com.xiaomi.aireco",
-      "description": "XiaoAI recommendation framework (suggestions/ads).",
+      "description": "小愛同學推薦框架（建議/廣告）。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -6887,7 +6889,7 @@
     },
     {
       "package": "com.xiaomi.aiservice",
-      "description": "On-device AI engine (OCR, translation) with OneTrack telemetry. AI features stop.",
+      "description": "裝置端 AI 引擎（OCR、翻譯），帶有 OneTrack 遙測。AI 功能將停止運作。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -6896,7 +6898,7 @@
     },
     {
       "package": "com.xiaomi.android.tvsetup.partnercustomizer",
-      "description": "First-boot partner customizer that installs bloatware.",
+      "description": "安裝 bloatware 的首次開機合作夥伴自訂程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -6905,7 +6907,7 @@
     },
     {
       "package": "com.xiaomi.aon",
-      "description": "Always-on sensing (face/gaze) with analytics. Removed in 15 Ultra list.",
+      "description": "隨時感測（臉部/注視）與分析功能。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -6919,7 +6921,7 @@
     },
     {
       "package": "com.xiaomi.barrage",
-      "description": "Game Turbo \"bullet\" pop-up notifications.",
+      "description": "遊戲加速器「彈幕」快顯通知。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -6936,7 +6938,7 @@
     },
     {
       "package": "com.xiaomi.bluetooth",
-      "description": "MIUI Bluetooth extension. UAD-ng calls it safe; mpierson reinstalls it to fix Bluetooth.",
+      "description": "MIUI 藍牙延伸。UAD-ng 稱其安全；mpierson 為了修復藍牙而重新安裝它。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -6949,7 +6951,7 @@
     },
     {
       "package": "com.xiaomi.bluetooth.overlay",
-      "description": "Image-only overlay for Xiaomi Bluetooth UI.",
+      "description": "小米藍牙 UI 的純圖片覆蓋。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -6958,7 +6960,7 @@
     },
     {
       "package": "com.xiaomi.bluetooth.rro.device.config.overlay",
-      "description": "Device Bluetooth config overlay. UAD-ng Expert.",
+      "description": "裝置藍牙設定覆蓋。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -6967,7 +6969,7 @@
     },
     {
       "package": "com.xiaomi.bsp.gps.nps",
-      "description": "GPS support component. Location accuracy may drop.",
+      "description": "GPS 支援元件。定位精確度可能會下降。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -6976,7 +6978,7 @@
     },
     {
       "package": "com.xiaomi.bttester",
-      "description": "Bluetooth hardware test service.",
+      "description": "藍牙硬體測試服務。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -6985,7 +6987,7 @@
     },
     {
       "package": "com.xiaomi.calendar",
-      "description": "Xiaomi Calendar. Remove only if you use another calendar.",
+      "description": "小米行事曆。僅在你使用其他行事曆時移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -6999,7 +7001,7 @@
     },
     {
       "package": "com.xiaomi.cameramind",
-      "description": "AI engine for the Xiaomi camera. Keep if you use the stock camera.",
+      "description": "小米相機的 AI 引擎。如果使用內建相機請保留。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7008,7 +7010,7 @@
     },
     {
       "package": "com.xiaomi.cameratools",
-      "description": "Camera calibration tool. Camera still works per UAD-ng.",
+      "description": "相機校正工具。根據 UAD-ng 指出相機仍可運作。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7022,7 +7024,7 @@
     },
     {
       "package": "com.xiaomi.channel",
-      "description": "Mi Talk messenger.",
+      "description": "米聊通訊軟體。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7031,7 +7033,7 @@
     },
     {
       "package": "com.xiaomi.digitalkey",
-      "description": "Digital car/door key (China only).",
+      "description": "數位汽車/門禁金鑰（僅限中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7040,7 +7042,7 @@
     },
     {
       "package": "com.xiaomi.discover",
-      "description": "System apps updater. Reddit/ovsky: remove to stop forced installs; UAD-ng rates it Expert.",
+      "description": "系統應用程式更新程式。Reddit/ovsky：移除以停止強制安裝；UAD-ng 評為專家級。",
       "category": "bloatware",
       "risk": "danger",
       "os": [
@@ -7056,7 +7058,7 @@
     },
     {
       "package": "com.xiaomi.entitlement.o2",
-      "description": "O2 carrier entitlement helper. Unused on other carriers.",
+      "description": "O2 電信商權限輔助程式。在其他電信商上未使用。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -7070,7 +7072,7 @@
     },
     {
       "package": "com.xiaomi.finddevice",
-      "description": "Find Device. UAD-ng: sign out first; removal breaks UI factory reset and account sign-in.",
+      "description": "尋找裝置。UAD-ng：請先登出；移除會破壞 UI 恢復原廠設定與帳號登入。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -7086,7 +7088,7 @@
     },
     {
       "package": "com.xiaomi.gamecenter",
-      "description": "Xiaomi Game Center store with tracking.",
+      "description": "帶有追蹤功能的小米遊戲中心商店。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7096,7 +7098,7 @@
     },
     {
       "package": "com.xiaomi.gamecenter.sdk.service",
-      "description": "Game Center SDK/login service. Not needed for Game Turbo.",
+      "description": "遊戲中心 SDK/登入服務。遊戲加速不需要它。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -7111,7 +7113,7 @@
     },
     {
       "package": "com.xiaomi.glgm",
-      "description": "Xiaomi Games hub.",
+      "description": "小米遊戲中樞。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -7130,7 +7132,7 @@
     },
     {
       "package": "com.xiaomi.gnss.polaris",
-      "description": "BeiDou/GNSS helper (China). Listed in mpierson aggressive list.",
+      "description": "北斗/GNSS 輔助程式（中國）。列在 mpierson 的積極清理清單中。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7139,7 +7141,7 @@
     },
     {
       "package": "com.xiaomi.hypercomm",
-      "description": "HyperOS interconnect (cross-device sharing). Removed in 15 Ultra list.",
+      "description": "HyperOS 互聯（跨裝置共用）。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7153,7 +7155,7 @@
     },
     {
       "package": "com.xiaomi.joyose",
-      "description": "Joyose thermal/game tuner. UAD-ng Expert; XDA users split on whether it throttles or protects.",
+      "description": "Joyose 溫控/遊戲調校工具。UAD-ng 專家級；XDA 用戶對其是限流還是保護意見分歧。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -7172,7 +7174,7 @@
     },
     {
       "package": "com.xiaomi.jr",
-      "description": "Xiaomi Finance/loans app (China).",
+      "description": "小米金融/借貸應用程式（中國）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7181,7 +7183,7 @@
     },
     {
       "package": "com.xiaomi.lens",
-      "description": "Camera-related lens helper. Many users remove it; purpose unclear.",
+      "description": "相機相關的鏡頭輔助程式。許多用戶將其移除；用途不明。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7190,7 +7192,7 @@
     },
     {
       "package": "com.xiaomi.location.fused",
-      "description": "China location provider with analytics. Google location still works.",
+      "description": "帶有分析功能的中國定位提供者。Google 定位功能依然正常運作。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7203,7 +7205,7 @@
     },
     {
       "package": "com.xiaomi.macro",
-      "description": "Game Turbo macro/automation tool.",
+      "description": "遊戲加速器巨集/自動化工具。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7216,7 +7218,7 @@
     },
     {
       "package": "com.xiaomi.market",
-      "description": "GetApps store. Updates some system apps; ovsky rates risky. Hide ads instead.",
+      "description": "GetApps 商店。更新部分系統應用程式；ovsky 評為具風險。建議改為隱藏廣告。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -7226,7 +7228,7 @@
     },
     {
       "package": "com.xiaomi.mbnloader",
-      "description": "Modem config loader (VoWiFi/carrier). Keep if calls/VoLTE matter.",
+      "description": "數據機設定載入程式（VoWiFi/電信商）。若通話/VoLTE 重要請保留。",
       "category": "system",
       "risk": "caution",
       "sources": [
@@ -7235,7 +7237,7 @@
     },
     {
       "package": "com.xiaomi.metoknlp",
-      "description": "Xiaomi network location helper (China-focused). ovsky removes it; location may degrade.",
+      "description": "小米網路定位輔助程式（以中國大陸為重心）。ovsky 予以移除；定位精確度可能會降低。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7245,7 +7247,7 @@
     },
     {
       "package": "com.xiaomi.mi_connect_service",
-      "description": "Mi Connect for IoT/cross-device. Mi Home and device sharing may break.",
+      "description": "用於物聯網/跨裝置的 Mi Connect。米家和裝置共用可能會失效。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7262,7 +7264,7 @@
     },
     {
       "package": "com.xiaomi.miaudiovisual",
-      "description": "Screen-off audio visualizer.",
+      "description": "關閉螢幕時的音訊視覺化效果。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7271,7 +7273,7 @@
     },
     {
       "package": "com.xiaomi.mibrain.speech",
-      "description": "Xiaomi AI speech engine (China assistant).",
+      "description": "小米 AI 語音引擎（中國助理）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7281,7 +7283,7 @@
     },
     {
       "package": "com.xiaomi.micloud.sdk",
-      "description": "Mi Cloud SDK. UAD-ng: auto-reboots when removed; mpierson lists it as needed for OTA.",
+      "description": "小米雲端 SDK。UAD-ng：移除會自動重新開機；mpierson 列為 OTA 所需。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -7296,7 +7298,7 @@
     },
     {
       "package": "com.xiaomi.midrop",
-      "description": "ShareMe (Mi Drop) file transfer.",
+      "description": "互傳（ShareMe / Mi Drop）檔案傳輸。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7312,7 +7314,7 @@
     },
     {
       "package": "com.xiaomi.midrop.overlay",
-      "description": "Overlay for ShareMe.",
+      "description": "互傳的覆蓋。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7321,7 +7323,7 @@
     },
     {
       "package": "com.xiaomi.migameservice",
-      "description": "Mi game service test component (China).",
+      "description": "小米遊戲服務測試元件（中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7331,7 +7333,7 @@
     },
     {
       "package": "com.xiaomi.mipicks",
-      "description": "GetApps (older name). ovsky rates risky; UAD-ng calls it safe.",
+      "description": "GetApps（舊名稱）。ovsky 評為具風險；UAD-ng 稱為安全。",
       "category": "bloatware",
       "risk": "caution",
       "os": [
@@ -7346,7 +7348,7 @@
     },
     {
       "package": "com.xiaomi.miplay_client",
-      "description": "MiPlay/Miracast wireless display. Screen casting stops.",
+      "description": "MiPlay/Miracast 無線顯示。螢幕投影功能會停止運作。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7356,7 +7358,7 @@
     },
     {
       "package": "com.xiaomi.mircs",
-      "description": "Hidden Mi RCS messaging.",
+      "description": "隱藏的小米 RCS 訊息。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7366,7 +7368,7 @@
     },
     {
       "package": "com.xiaomi.mirecycle",
-      "description": "Mi Recycle phone trade-in promo (India).",
+      "description": "小米回收手機舊換新促銷（印度）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7376,7 +7378,7 @@
     },
     {
       "package": "com.xiaomi.mirror",
-      "description": "Xiaomi Interconnectivity/MIUI+ (PC/tablet sync). Remove if unused.",
+      "description": "小米跨屏協作/MIUI+（PC/平板同步）。如果未使用可移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7392,7 +7394,7 @@
     },
     {
       "package": "com.xiaomi.mis",
-      "description": "Connected car service (China).",
+      "description": "車聯網服務（中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7401,7 +7403,7 @@
     },
     {
       "package": "com.xiaomi.misettings",
-      "description": "Xiaomi Settings extensions. UAD-ng Unsafe.",
+      "description": "小米設定延伸功能。UAD-ng 不安全。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -7411,7 +7413,7 @@
     },
     {
       "package": "com.xiaomi.mitv.res",
-      "description": "Mi TV/util resource package. UAD-ng Expert.",
+      "description": "小米電視/工具資源套件。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -7420,7 +7422,7 @@
     },
     {
       "package": "com.xiaomi.mtb",
-      "description": "Hidden baseband debug tool (MTB). Not user-facing.",
+      "description": "隱藏的基帶除錯工具（MTB）。非面向使用者。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7434,7 +7436,7 @@
     },
     {
       "package": "com.xiaomi.o2o",
-      "description": "Online-to-offline shopping promotions.",
+      "description": "線上至線下（O2O）購物促銷。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7443,7 +7445,7 @@
     },
     {
       "package": "com.xiaomi.oobhelper",
-      "description": "Out-of-box helper framework/logs.",
+      "description": "開箱輔助框架/記錄。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7452,7 +7454,7 @@
     },
     {
       "package": "com.xiaomi.otrpbroker",
-      "description": "IoT OTRP protocol broker (China).",
+      "description": "物聯網 OTRP 通訊協定代理商（中國）。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7461,7 +7463,7 @@
     },
     {
       "package": "com.xiaomi.oversea.ecom",
-      "description": "Xiaomi ShopPlus e-commerce.",
+      "description": "小米 ShopPlus 電子商務。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7470,7 +7472,7 @@
     },
     {
       "package": "com.xiaomi.pass",
-      "description": "Mi Pass NFC cards/keys. Remove if you don't use NFC cards via Xiaomi.",
+      "description": "小米通行證 NFC 卡片/金鑰。如果不透過小米使用 NFC 卡片可移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7480,7 +7482,7 @@
     },
     {
       "package": "com.xiaomi.payment",
-      "description": "Mi Credit/Mi Pay payment component (old name).",
+      "description": "小米支付/Mi Credit 付款元件（舊名稱）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7498,7 +7500,7 @@
     },
     {
       "package": "com.xiaomi.phone",
-      "description": "HyperPhone telephony extension. UAD-ng Expert.",
+      "description": "HyperPhone 電話延伸。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -7510,7 +7512,7 @@
     },
     {
       "package": "com.xiaomi.phone.overlay",
-      "description": "Overlay for HyperPhone. UAD-ng Expert.",
+      "description": "HyperPhone 的覆蓋。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -7519,7 +7521,7 @@
     },
     {
       "package": "com.xiaomi.powerchecker",
-      "description": "Power usage detector used by battery manager. UAD-ng Expert.",
+      "description": "電池管理員所使用的耗電量偵測器。UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "sources": [
@@ -7529,7 +7531,7 @@
     },
     {
       "package": "com.xiaomi.providers.appindex",
-      "description": "App index provider (settings/search). Commonly removed.",
+      "description": "應用程式索引提供者（設定/搜尋）。常見的移除對象。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7538,7 +7540,7 @@
     },
     {
       "package": "com.xiaomi.roaming",
-      "description": "Mi Roaming (ovsky name). Remove if you don't buy roaming data.",
+      "description": "小米漫遊（ovsky 名稱）。若不購買漫遊資料可移除。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7547,7 +7549,7 @@
     },
     {
       "package": "com.xiaomi.scanner",
-      "description": "Xiaomi Scanner (QR/docs). ovsky rates risky; many lists remove it.",
+      "description": "小米掃描器（QR/文件）。ovsky 評為具風險；許多清單會移除它。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7562,7 +7564,7 @@
     },
     {
       "package": "com.xiaomi.security.onetrack",
-      "description": "OneTrack security telemetry service.",
+      "description": "OneTrack 安全遙測服務。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7572,7 +7574,7 @@
     },
     {
       "package": "com.xiaomi.shop",
-      "description": "Old Xiaomi store app.",
+      "description": "舊版小米商城應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7581,7 +7583,7 @@
     },
     {
       "package": "com.xiaomi.simactivate.service",
-      "description": "SIM activation for Xiaomi services. mpierson reinstalls it to fix OTA updates.",
+      "description": "小米服務的 SIM 卡啟用。mpierson 為了修復 OTA 更新而重新安裝它。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7596,7 +7598,7 @@
     },
     {
       "package": "com.xiaomi.smarthome",
-      "description": "Xiaomi Home (IoT devices).",
+      "description": "米家（物聯網裝置）。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7611,7 +7613,7 @@
     },
     {
       "package": "com.xiaomi.thememanager",
-      "description": "Themes (alternate name). ovsky rates it risky.",
+      "description": "主題（替代名稱）。ovsky 評為具風險。",
       "category": "oem",
       "risk": "danger",
       "sources": [
@@ -7620,7 +7622,7 @@
     },
     {
       "package": "com.xiaomi.touchservice",
-      "description": "Touch service with analytics. Removed in 15 Ultra list.",
+      "description": "帶有分析功能的觸控服務。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7634,7 +7636,7 @@
     },
     {
       "package": "com.xiaomi.trustservice",
-      "description": "MiTrust security service. XDA OP reinstalled it; purpose unclear.",
+      "description": "MiTrust 安全服務。XDA 開發者重新安裝了它；用途不明。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7648,7 +7650,7 @@
     },
     {
       "package": "com.xiaomi.ugd",
-      "description": "Updatable GPU driver. mpierson lists safe; UAD-ng Expert.",
+      "description": "可更新的 GPU 驅動程式。mpierson 列為安全；UAD-ng 專家級。",
       "category": "system",
       "risk": "danger",
       "os": [
@@ -7661,7 +7663,7 @@
     },
     {
       "package": "com.xiaomi.upnp",
-      "description": "UPnP discovery for casting.",
+      "description": "用於投影的 UPnP 探索。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7670,7 +7672,7 @@
     },
     {
       "package": "com.xiaomi.vipaccount",
-      "description": "Xiaomi VIP/membership app.",
+      "description": "小米 VIP/會員應用程式。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7680,7 +7682,7 @@
     },
     {
       "package": "com.xiaomi.xaee",
-      "description": "XiaoAI edge engine.",
+      "description": "小愛同學邊緣引擎。",
       "category": "oem",
       "risk": "safe",
       "sources": [
@@ -7689,7 +7691,7 @@
     },
     {
       "package": "com.xiaomi.xmsf",
-      "description": "Xiaomi Service Framework (push, OTA). ovsky says safe; UAD-ng Expert, mpierson says OTA needs it.",
+      "description": "小米服務框架（推播、OTA）。ovsky 稱其安全；UAD-ng 專家級，mpierson 稱 OTA 需要它。",
       "category": "oem",
       "risk": "danger",
       "os": [
@@ -7704,7 +7706,7 @@
     },
     {
       "package": "com.xiaomi.xmsfkeeper",
-      "description": "Keeper/logger for XMSF. mpierson lists it among OTA fixes.",
+      "description": "XMSF 的守護者/記錄器。mpierson 將其列在 OTA 修復項目中。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7721,7 +7723,7 @@
     },
     {
       "package": "com.xiaomi.youpin",
-      "description": "Xiaomi Youpin shop (China).",
+      "description": "小米有品商城（中國）。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7730,7 +7732,7 @@
     },
     {
       "package": "com.zhiliaoapp.musically",
-      "description": "TikTok preload.",
+      "description": "TikTok 預載。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -7744,7 +7746,7 @@
     },
     {
       "package": "de.autodoc.gmbh",
-      "description": "Autodoc car-parts shopping preload.",
+      "description": "Autodoc 汽車零件購物預載。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7753,7 +7755,7 @@
     },
     {
       "package": "de.telekom.tsc",
-      "description": "Telekom AppEnabler: installs apps and pushes ads.",
+      "description": "Telekom AppEnabler：安裝應用程式並推送廣告。",
       "category": "bloatware",
       "risk": "safe",
       "os": [
@@ -7767,7 +7769,7 @@
     },
     {
       "package": "eu.xiaomi.ext",
-      "description": "Xiaomi.eu ROM extension. Only on Xiaomi.eu custom ROMs.",
+      "description": "Xiaomi.eu ROM 延伸。僅在 Xiaomi.eu 自訂 ROM 上。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7776,7 +7778,7 @@
     },
     {
       "package": "eu.xiaomi.module.inject",
-      "description": "Xiaomi.eu device info injection. Only on Xiaomi.eu custom ROMs.",
+      "description": "Xiaomi.eu 裝置資訊注入。僅在 Xiaomi.eu 自訂 ROM 上。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7785,7 +7787,7 @@
     },
     {
       "package": "miui.systemui.plugin",
-      "description": "HyperOS SystemUI plugin: control center and volume UI fall back to AOSP.",
+      "description": "HyperOS SystemUI 外掛程式：控制中心和音量 UI 會退回使用 AOSP 樣式。",
       "category": "system",
       "risk": "caution",
       "os": [
@@ -7797,7 +7799,7 @@
     },
     {
       "package": "miuix.stub",
-      "description": "MIUIX library stub.",
+      "description": "MIUIX 程式庫捷徑。",
       "category": "oem",
       "risk": "caution",
       "sources": [
@@ -7806,7 +7808,7 @@
     },
     {
       "package": "net.wooga.junes_journey_hidden_object_mystery_game",
-      "description": "June's Journey preloaded game.",
+      "description": "June's Journey 預載遊戲。",
       "category": "bloatware",
       "risk": "safe",
       "sources": [
@@ -7815,7 +7817,7 @@
     },
     {
       "package": "org.ifaa.aidl.manager",
-      "description": "IFAA biometric auth for Alipay-style apps. Removed in 15 Ultra list.",
+      "description": "支付寶等應用程式使用的 IFAA 生物辨識驗證。已在 15 Ultra 清單中移除。",
       "category": "oem",
       "risk": "caution",
       "os": [
@@ -7829,7 +7831,7 @@
     },
     {
       "package": "org.mipay.android.manager",
-      "description": "Mi Pay service. Unused outside Mi Pay regions.",
+      "description": "小米支付服務。在 Mi Pay 支援區域以外未被使用。",
       "category": "oem",
       "risk": "safe",
       "os": [
@@ -7843,7 +7845,7 @@
     },
     {
       "package": "vendor.qti.qesdk.sysservice",
-      "description": "Qualcomm QESDK debug/log service. Removed in 15 Ultra list.",
+      "description": "高通 QESDK 除錯/記錄服務。已在 15 Ultra 清單中移除。",
       "category": "system",
       "risk": "caution",
       "os": [
