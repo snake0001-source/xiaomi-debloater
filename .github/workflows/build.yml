@@ -3,12 +3,12 @@ name: Build and Release EXE
 on:
   push:
     tags:
-      - 'v*' # 當您建立並推送開頭為 v 的 Tag（例如 v1.1.2）時觸發
-  workflow_dispatch: # 支援在 GitHub 網頁手動點擊執行
+      - 'v*'
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-latest # 必須使用 windows 環境才能正確打包 Windows .exe
 
     steps:
     - name: 檢查程式碼
