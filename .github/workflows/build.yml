@@ -1,8 +1,10 @@
-name: Build Debloater EXE
+name: Build and Release EXE
 
 on:
   push:
-    branches: [ "main" ] # 如果您的預設分支是 master，請改成 master
+    tags:
+      - 'v*' # 當您建立並推送開頭為 v 的 Tag（例如 v1.1.2）時觸發
+  workflow_dispatch: # 支援在 GitHub 網頁手動點擊執行
 
 jobs:
   build:
@@ -26,8 +28,10 @@ jobs:
       run: |
         pyinstaller --onefile --noconsole --add-data "bloatware.json;." debloater.py
 
-    - name: 上傳打包好的 EXE 到 Artifacts
-      uses: actions/upload-artifact@v4
+    - name: 上傳 .exe 至 GitHub Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
       with:
-        name: xiaomi-debloater-exe
-        path: dist/*.exe
+        files: dist/debloater.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
