@@ -1,4 +1,4 @@
-name: Build EXE
+name: Build Wails EXE
 
 on:
   push:
@@ -15,22 +15,24 @@ jobs:
     - name: 1. 取得程式碼
       uses: actions/checkout@v4
 
-    - name: 2. 設定 Python
-      uses: actions/setup-python@v5
+    - name: 2. 設定 Go 環境
+      uses: actions/setup-go@v5
       with:
-        python-version: '3.11'
+        go-version: '1.22' # 依您的 go.mod 版本調整
 
-    - name: 3. 安裝 PyInstaller
-      run: |
-        python -m pip install --upgrade pip
-        pip install pyinstaller
+    - name: 3. 設定 Node.js 環境 (Wails 前端需要)
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
 
-    - name: 4. 執行打包
-      run: |
-        pyinstaller --onefile --noconsole --add-data "bloatware.json;." debloater.py
+    - name: 4. 安裝 Wails CLI
+      run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
 
-    - name: 5. 上傳打包好的 EXE (Artifacts)
+    - name: 5. 建置 Windows 執行檔 (.exe)
+      run: wails build -platform windows/amd64 -ns
+
+    - name: 6. 上傳打包好的 EXE (Artifacts)
       uses: actions/upload-artifact@v4
       with:
-        name: xiaomi-debloater-exe
-        path: dist/*.exe
+        name: xiaomi-debloater-windows-exe
+        path: build/bin/*.exe
